@@ -1,0 +1,18 @@
+PODS:
+  - CYLTabBarController (1.28.5):
+    - CYLTabBarController/Core (= 1.28.5)
+  - CYLTabBarController/Core (1.28.5)
+
+DEPENDENCIES:
+  - CYLTabBarController
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CYLTabBarController
+
+SPEC CHECKSUMS:
+  CYLTabBarController: edd9fecba9afa3f2e9e44ed50ca6dde69941f25f
+
+PODFILE CHECKSUM: 3084e4fdab8a80d76d3297b94b24559fe165624a
+
+COCOAPODS: 1.9.0.beta.3
