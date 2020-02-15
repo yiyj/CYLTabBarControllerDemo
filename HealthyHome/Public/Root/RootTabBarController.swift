@@ -10,6 +10,12 @@ import UIKit
 
 class RootTabBarController: CYLTabBarController {
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        guard self.hideTabbarLine else {// 隐藏 tabbar 上部的线
+            return
+        }
+    }
 
     override func viewDidLoad() {
         
@@ -37,7 +43,13 @@ class RootTabBarController: CYLTabBarController {
         //MARK:去除 TabBar 自带的顶部阴影
         self.tabBar.shadowImage = UIImage()
         
+        //可去除TabBar顶部横线会锁死线程bug
 //        appearanceShawIamge()
+        
+        //添加阴影
+//        tabBar.layer.shadowColor = UIColor.hexColor("3A57ED").cgColor
+//        tabBar.layer.shadowOffset = CGSize(width: 0, height: -3)
+//        tabBar.layer.shadowOpacity = 1
     }
     
     @available(iOS 13, *)
@@ -46,6 +58,19 @@ class RootTabBarController: CYLTabBarController {
         appearance.shadowImage = .imageWithColor(.clear)
         tabBar.standardAppearance = appearance
     }
+    
+    lazy var hideTabbarLine: Bool = {
+        // 隐藏 tabbar 上部的线
+        for view in self.tabBar.subviews {
+            for image in view.subviews {
+                if image.height < 2 {
+                    image.isHidden = true
+                    return true
+                }
+            }
+        }
+        return true
+    }()
 }
 
 extension RootTabBarController {
