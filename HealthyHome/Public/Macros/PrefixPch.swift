@@ -55,6 +55,9 @@ let appInfo = Bundle.main.infoDictionary
 let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString")
 //MARK:  获取设备系统号
 let systemVersion = UIDevice.current.systemVersion
+//MARK:手机系统 iPhone OS
+let systemName = UIDevice.current.systemName
+
 //MARK:系统版本
 let IOS8_OR_LATER = (Float(systemVersion)! >= 8.0 ? true : false)
 let IOS9_OR_LATER = (Float(systemVersion)! >= 9.0 ? true : false)

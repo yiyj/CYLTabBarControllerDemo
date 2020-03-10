@@ -1,18 +1,26 @@
 PODS:
+  - Alamofire (5.0.2)
   - CYLTabBarController (1.28.5):
     - CYLTabBarController/Core (= 1.28.5)
   - CYLTabBarController/Core (1.28.5)
+  - ReachabilitySwift (5.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - CYLTabBarController
+  - ReachabilitySwift
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - Alamofire
     - CYLTabBarController
+    - ReachabilitySwift
 
 SPEC CHECKSUMS:
+  Alamofire: 3ba7a4db18b4f62c4a1c0e1cb39d7f3d52e10ada
   CYLTabBarController: edd9fecba9afa3f2e9e44ed50ca6dde69941f25f
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
 
-PODFILE CHECKSUM: 3084e4fdab8a80d76d3297b94b24559fe165624a
+PODFILE CHECKSUM: 8198d236675f2e4cd4910079374c265a248e1f3b
 
-COCOAPODS: 1.9.0.beta.3
+COCOAPODS: 1.8.4

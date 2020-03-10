@@ -23,5 +23,15 @@ extension UIImage {
         return image!
     }
     
+    //MARK: - 截屏
+    class func cutImageWithView(view: UIView) -> UIImage {
+        // 参数①：截屏区域  参数②：是否透明  参数③：清晰度
+        UIGraphicsBeginImageContextWithOptions(view.frame.size, true, UIScreen.main.scale)
+        view.layer.render(in: UIGraphicsGetCurrentContext()!)
+        let image:UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext();
+    
+        return image;
+    }
     
 }

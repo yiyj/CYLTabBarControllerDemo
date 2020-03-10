@@ -3,65 +3,128 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00AE1D10C84A4EE924C906A94438F122 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D026BCA00DAC4761F2BD849217B2AD /* UIView+CYLBadgeExtention.m */; };
-		02391FE492CA4DCE409A866F798227EC /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB25AA77ABC00B5F11C993EF007EA6A3 /* CYLBaseViewController.m */; };
-		054B9D6E73975C149509816489757460 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7642EA292166C33D888A169D41010E8D /* CYLPlusButton.m */; };
-		0A94C9AA03908CA047957A794A53EE0A /* UIControl+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = A4A86CEF0A51A8D8F6DD8B27BFE27B5F /* UIControl+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		132F19701146A4BB37603B138B188922 /* UIColor+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 362C2151EF50AF9B8022037308AD2636 /* UIColor+CYLTabBarControllerExtention.m */; };
-		147789255DD398E18ABC8B780BFEF3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		15DE1DD6388038B069ACE502DF81CA17 /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = D20BFD40040FE1D459B9225C5AE3F295 /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1928A778BC37A26575E6E2ADED5A42EC /* CYLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F1577A8DD0AADCE6018DDC965E04D1 /* CYLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E97D5087D153FD8D3CA2C7D9B3237C7 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 98434C26ECD1F117C09B32AC8FFEED6A /* UITabBarItem+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A650941A29527C0BE365385B765E932 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 26EFD5F3DABCC04112F73748401E584C /* UITabBarItem+CYLTabBarControllerExtention.m */; };
-		31D0093EF3E450DC3447E6F5EC17C9CF /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC95F71E7BBE7E7B5D262095969C49F /* UIView+CYLTabBarControllerExtention.m */; };
-		32FE405C267CABEFC3123434CF82F251 /* Pods-HealthyHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0E0F152C31F50231F5E28948A1BDD9 /* Pods-HealthyHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33EC584755E12E53B91E7366DCBB65F9 /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DE7EDA180499D36CF21639CE20DD64 /* UITabBarItem+CYLBadgeExtention.m */; };
-		350A268E63576441654D151FD78AFE59 /* UIViewController+CYLNavigationControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DBBA8B919DDBC40B379F5B7ECEF5C4 /* UIViewController+CYLNavigationControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4026629D8A7E7C1F366F4B41608C2749 /* UIView+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC79DBA3190E27693C2048AEFF9BB1A /* UIView+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4899C494432015060C79C06CC674B096 /* CAAnimation+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 775D1847DF0C097AE7FF59230E76B03A /* CAAnimation+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A929C2D08B81CD8838C88443B8CF4B4 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = FE537E953DACC642DCCEC3FB7439A38A /* UIBarButtonItem+CYLBadgeExtention.m */; };
-		4DE5A7291BD988395C77CFA8BF2B97EB /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CC3309CF8044889EC6D056FB9B31FCC /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51906C79D545131741A13CAD7154DF07 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8173EE800CE7757D42F50B27461DAFD3 /* CYLTabBarController.m */; };
-		5A867FC9D9E8826800FE55CDCD0E607C /* UIImage+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = CA9FDFD83E158CDDB6DDDC46A094BBAC /* UIImage+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E7BF555076ECB4860CFB110F04F6497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6734D1DC996E5C7494B51D4BDBE8AC5A /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22600D48C832A41DF14E92999F38C040 /* CYLTabBarController-dummy.m */; };
-		70509720C2B3587A8DA9C674F1D1F30E /* UIBarButtonItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 135F159BFA1437A2E2B78B3B66FD1032 /* UIBarButtonItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7634D5B1AC0E29049BCB02FFDE4DF878 /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = C24880674C0977EB4D71CF204869F66D /* UIViewController+CYLNavigationControllerExtention.m */; };
-		7839AAE6E735F6E209F01E7DBF323959 /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 030CA226B9EAD8410A33D35E3D41319F /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79B76F1345E968158D296629307E8F26 /* UIImage+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F2213CE8B1E254C5C03935B9F63C0E /* UIImage+CYLTabBarControllerExtention.m */; };
-		871B8CF0BC5248B22258BF8ED6ADC29C /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F37C602265A23608CC643DDC05515F /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8838A37F660AD3B16C6A41C2A9F0D775 /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B428D6A1815195161F3C4CDC059081C /* CYLBaseTableViewController.m */; };
+		00AE1D10C84A4EE924C906A94438F122 /* UIView+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B221D7903A182FCDAD2EBCAD74C14F4 /* UIView+CYLBadgeExtention.m */; };
+		00FA97D56201027AEB1C7692A2C3CF8B /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC692C21D4EB9ABD75FE3FBCF2FC47BD /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02391FE492CA4DCE409A866F798227EC /* CYLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A75CD4DBA659F456F16B7E9DD4BEC272 /* CYLBaseViewController.m */; };
+		0419772A87B16DB7DCF405A9E77D671F /* Protector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F36828AD571A7163CB13E3CE91E508 /* Protector.swift */; };
+		054B9D6E73975C149509816489757460 /* CYLPlusButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CF63219ABA1A432562305B3BA78C09 /* CYLPlusButton.m */; };
+		06507A26118BA5ACFBBC8C225776920E /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75511942AD8E157B11A74C6A3E1B750D /* Validation.swift */; };
+		09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17C7497B2CAAF57B6D9B3DC94E987A66 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A94C9AA03908CA047957A794A53EE0A /* UIControl+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 62E1718422A4947215EFF498A7C38D4F /* UIControl+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AE06C3AEA6CA45342BA703230ABD2CB /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECC310F0B1B2E82DC4B8A7461ECDF81 /* CachedResponseHandler.swift */; };
+		0CC43FF0E31AA320ACFEB0FE6239DF34 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36C6190CC43DE48FE9293701CE9AA96 /* ServerTrustEvaluation.swift */; };
+		132F19701146A4BB37603B138B188922 /* UIColor+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D93FD8C2E8489292497D36CDCB8131A /* UIColor+CYLTabBarControllerExtention.m */; };
+		13457FE4E607509A3B9527B0711033D5 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E30F9B991B5A2218785E25BE7692733 /* ResponseSerialization.swift */; };
+		147789255DD398E18ABC8B780BFEF3B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */; };
+		14AB7976E100075ADEA0AB1DB833E72D /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B01AB752624EC60E951E4D7545312F74 /* ParameterEncoding.swift */; };
+		15DE1DD6388038B069ACE502DF81CA17 /* UIViewController+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = B89B7CE28D293BFE7C334014F69A42A4 /* UIViewController+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17953A9CF2E354B3E69B9ABC2F367AD9 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0139B4903667D2D23C346CC3C53A07AB /* AFError.swift */; };
+		1928A778BC37A26575E6E2ADED5A42EC /* CYLBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FEFF5FC46981B535384279F33031CF93 /* CYLBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E97D5087D153FD8D3CA2C7D9B3237C7 /* UITabBarItem+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 729EB9E594C27ECD6DAA430501B1508D /* UITabBarItem+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A650941A29527C0BE365385B765E932 /* UITabBarItem+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 30C567955DE992507BF8E1BCFA7A9DE4 /* UITabBarItem+CYLTabBarControllerExtention.m */; };
+		31D0093EF3E450DC3447E6F5EC17C9CF /* UIView+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 54D5E770D8A01AC2E7A8A7F56F17323C /* UIView+CYLTabBarControllerExtention.m */; };
+		33CF97469D3F267E887B8320493B195A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */; };
+		33EC584755E12E53B91E7366DCBB65F9 /* UITabBarItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2E7EAEB15B3128D759F9481E9D92F2 /* UITabBarItem+CYLBadgeExtention.m */; };
+		350A268E63576441654D151FD78AFE59 /* UIViewController+CYLNavigationControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = F55FF752EB69D085174E7CC11DC00E8D /* UIViewController+CYLNavigationControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4026629D8A7E7C1F366F4B41608C2749 /* UIView+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3120B24A57C9566AD5AECD5C4CF055D8 /* UIView+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4082513A35C682F2193D002C80F72B79 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF29108F69D5461813BEA973FEF022 /* Result+Alamofire.swift */; };
+		42CDB5C986C78BBC8E5C0185F746CABF /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D875571B57E0AA7A960E5B8C09A47EB6 /* SessionDelegate.swift */; };
+		44127C4B989C9CC6A90D78B66A929A5E /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623972597CBF434B0178267378895277 /* AlamofireExtended.swift */; };
+		45130C4908DB5DCFB2793DCB8A3E1398 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */; };
+		4899C494432015060C79C06CC674B096 /* CAAnimation+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = DADCCE2F7AD70B2AF909C21909024B17 /* CAAnimation+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48D97BE7D5CAED273BD2341C239CC934 /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F193A60EBA5A16324F9C0345FA64D2 /* RequestTaskMap.swift */; };
+		4A929C2D08B81CD8838C88443B8CF4B4 /* UIBarButtonItem+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC9EC6F4A04FFCC08FEE7B44F7E724E /* UIBarButtonItem+CYLBadgeExtention.m */; };
+		4DE5A7291BD988395C77CFA8BF2B97EB /* CYLTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A7DC97DB2A60CB29A44334CE2580C7 /* CYLTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51906C79D545131741A13CAD7154DF07 /* CYLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3AB14F22961905F9F178D316917725 /* CYLTabBarController.m */; };
+		51F360998C960F915329440E9BBB4BDB /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 72F37C602265A23608CC643DDC05515F /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56EC8ED1535DAB987F3D2B71D4C05773 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743F96B644F7F535EAE772C0A77DD3DA /* HTTPHeaders.swift */; };
+		5A867FC9D9E8826800FE55CDCD0E607C /* UIImage+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D01C694363CF083CD9F0A398D9841C7 /* UIImage+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C4A0685B5A201436AB52EF25829B333 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A6E16827FA85EDF2EC3CECFC664A23 /* MultipartFormData.swift */; };
+		5D12235D061AEE7459279AAF8C348DFE /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08899C8B2AB111063D40658369322022 /* URLEncodedFormEncoder.swift */; };
+		5D61C8ED0DDCC9F8B576B6514B19EE50 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A6FA32233C986E515F133B049F470B /* ParameterEncoder.swift */; };
+		5E7BF555076ECB4860CFB110F04F6497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */; };
+		6734D1DC996E5C7494B51D4BDBE8AC5A /* CYLTabBarController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4151777AE911590EB597DC269344EB6 /* CYLTabBarController-dummy.m */; };
+		69ACE4EEE5A8C1C618B22CC1F7B8EF01 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51158BE5B13B6EC48B3C1F05B22C592D /* Session.swift */; };
+		6A22C46CB1EDE471794D9AB2AC10327F /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C619FCDB92853011A8250105632C27 /* Request.swift */; };
+		70509720C2B3587A8DA9C674F1D1F30E /* UIBarButtonItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 050F22BDE95BCCF02CAE264895AA17A2 /* UIBarButtonItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70517C3BAC2D6614347DEAC15299EB84 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19C1C4FAC904FA987CFF27709D7A50BA /* URLConvertible+URLRequestConvertible.swift */; };
+		7634D5B1AC0E29049BCB02FFDE4DF878 /* UIViewController+CYLNavigationControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 876ADCA21DC8F829D8214B7DCE654EE8 /* UIViewController+CYLNavigationControllerExtention.m */; };
+		7839AAE6E735F6E209F01E7DBF323959 /* CYLPlusButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EF113594843E198B09580DDDCB4C914 /* CYLPlusButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B76F1345E968158D296629307E8F26 /* UIImage+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBE1B7AED2ADDA81B9C77E1C666E851 /* UIImage+CYLTabBarControllerExtention.m */; };
+		7CF8362BA31492053F5CB165637AE117 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E2D8FDC0CE42D9A26CEAA47012CFC8 /* NetworkReachabilityManager.swift */; };
+		8838A37F660AD3B16C6A41C2A9F0D775 /* CYLBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0EC57E8FD3D29BEBFB0B2C50D07E88 /* CYLBaseTableViewController.m */; };
 		88A0C74C590E377999CB43661CE02490 /* Pods-HealthyHomeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B0370075336B41DBE9FD8A977C9A0A /* Pods-HealthyHomeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A056297AF4D0B8D91FC8DF2AF11EA94 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 05DCA2BBDEA407583F9739BDBD0993DE /* CYLTabBar+CYLTabBarControllerExtention.m */; };
-		8A2247BD6B9613F85F199679EE9CA80B /* CYLBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E7800F21E1A1CBC62DC92352AB8884F9 /* CYLBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8E10DD42E83A856D7AEE2A0F72E9A118 /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 51132602897E4A23CAC42419B6E859B4 /* CAAnimation+CYLBadgeExtention.m */; };
-		948880654C96060C38BDEB9847A25669 /* CYLTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4048D4923AD8962A29AE735FBFC0CD86 /* CYLTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4EDEB378A6EB622E5144F8F562C496E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A9CA97369B3C93FFA1E5FB81FA776AF5 /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A1FE9A742C818781D1DA3E1AAA8362E /* CYLTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AD35F7B599B44AD03B640B2CE7B3369B /* UIColor+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB54E403C587386A11894AFE0B569E9 /* UIColor+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3B0C4C1EF167C447F8C95733CF9DC03 /* NSObject+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C206D89E473F0CCDB5A94D8BFC8D7F /* NSObject+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B8ABFABC0FA0271B990EE72F88B746F8 /* UIView+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = A0624631D98DBFED52F274B9A1DE701A /* UIView+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD53B32ED44AA1E81291951EDFBB3FBC /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5857E680A44FCD0C6EE5BA6D65AEF0 /* UIViewController+CYLTabBarControllerExtention.m */; };
-		C125A5F9C474B22773EF43F14035C672 /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = F2661BF2DEF944EA0C2EF3F9654D4E01 /* CYLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C25C33B2F9FACCF7F2B478D10F55D3CB /* UITabBarItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 185CA517877F564CCAACEDE9BCC71AA5 /* UITabBarItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C349C619E901304D79ED750F76D3B278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		CFB63571CD1537C68E3836EE31F3419D /* NSObject+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 27353BF3794969D869C5275DAD40CF72 /* NSObject+CYLTabBarControllerExtention.m */; };
-		D297BD91956F5E2E254EEF498AEE4048 /* Pods-HealthyHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07653E09A85299AC22DEFB26179A8F /* Pods-HealthyHome-dummy.m */; };
-		D9043A31B9D566F9D23760A27FF01416 /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = FABA927C9363534A471ADE67E8516D55 /* UIControl+CYLTabBarControllerExtention.m */; };
-		D97643539DD35BDFA9FF30466E7516CF /* Pods-HealthyHome-HealthyHomeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E10EA49B824351C12B91BAF8B4D5F8 /* Pods-HealthyHome-HealthyHomeUITests-dummy.m */; };
-		DA85165065575E942EB7C5895AB5DCCA /* CYLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7D398115E4EDD9DB9BA6707CA92D73 /* CYLBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DBF78CD1D40B76F0BD3BF6A57705C6DD /* CYLTabBar+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 987F90B7160835EF5E57CBFE7E00DA7F /* CYLTabBar+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89A589D04411197399D7FCF7159AAE0A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D3D52DDD120683EDC3552BC2FD90448 /* CoreTelephony.framework */; };
+		8A056297AF4D0B8D91FC8DF2AF11EA94 /* CYLTabBar+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = D7396AE2AB28CB2FD835CBAD884F5485 /* CYLTabBar+CYLTabBarControllerExtention.m */; };
+		8A2247BD6B9613F85F199679EE9CA80B /* CYLBaseTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D469ED1015D1DC88D41B75DF4FBC43 /* CYLBaseTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E10DD42E83A856D7AEE2A0F72E9A118 /* CAAnimation+CYLBadgeExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A647C08C4370F0024953F0216334494 /* CAAnimation+CYLBadgeExtention.m */; };
+		92811AC5CD9A5004116AE43C4E8FD955 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45259947F8D426A056038EB85C92C640 /* OperationQueue+Alamofire.swift */; };
+		948880654C96060C38BDEB9847A25669 /* CYLTabBarController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DB11FC7114A74AD1D26E4036BF5F0F /* CYLTabBarController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97A168DFB6DB61770CE2DBF4FD39AA8D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45F70D428ADDDDB72A16DC9DF90A3D3 /* CFNetwork.framework */; };
+		A9CA97369B3C93FFA1E5FB81FA776AF5 /* CYLTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E8049DD3F54D80BA67481AFD4AA31E4 /* CYLTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3114558B06F7669155647EC1DE85814 /* Reachability.swift */; };
+		AD35F7B599B44AD03B640B2CE7B3369B /* UIColor+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D272A270C727635EDE92D47DC6E7490 /* UIColor+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9899986955B2EC1EC20818C860C971 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5405C0C0D45ECA0143D80A7EBACBF6BC /* RequestInterceptor.swift */; };
+		AF92602937CA016548022C600B8CDC16 /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE6DF1408C18812D310D6E8BCDF6810 /* URLSessionConfiguration+Alamofire.swift */; };
+		B1C58F6CED7B3E45170711D9ADF878AF /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA6B93ACF497B6A7D310206B5D03F19 /* Alamofire-dummy.m */; };
+		B23E9A5CDA31534491226F4C2EE8F8E6 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5224685BCC739535736402A99932ADCA /* HTTPMethod.swift */; };
+		B3B0C4C1EF167C447F8C95733CF9DC03 /* NSObject+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 58D1F82E7A13E6AE1A3E643F024C9B0E /* NSObject+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B788B3354CCEBE56DFDB963CAFD7F6C2 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7137B79F037C25D9A74BE58473350778 /* Alamofire.swift */; };
+		B8ABFABC0FA0271B990EE72F88B746F8 /* UIView+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 802AB07FDA0EF0BE86FBDE598A4F3C13 /* UIView+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD53B32ED44AA1E81291951EDFBB3FBC /* UIViewController+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3A6291D0B7682CD611B7859942E231 /* UIViewController+CYLTabBarControllerExtention.m */; };
+		BE82AE980F8C7EE28A6448959194F93A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */; };
+		C125A5F9C474B22773EF43F14035C672 /* CYLConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 56315DC777920F012EE8764CA05C3F0D /* CYLConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25C33B2F9FACCF7F2B478D10F55D3CB /* UITabBarItem+CYLBadgeExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B4432B95FEE6767BB55A10C39A1EB4 /* UITabBarItem+CYLBadgeExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64AF152F7928CDB59385528DB65FE19 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE9E901C11592E8009B825630A8F290C /* RedirectHandler.swift */; };
+		C7369563F6946D8984124E1A546B6425 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E367EA08DF21CCCC908BF4079902A2E /* Notifications.swift */; };
+		CACBD166E573774FB5613C34AA6DA7A7 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0D031273B461BAD31D02D3C9D56139 /* EventMonitor.swift */; };
+		CFB63571CD1537C68E3836EE31F3419D /* NSObject+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DB6BFF4A26B55CBEBCC7EB9610E82A3 /* NSObject+CYLTabBarControllerExtention.m */; };
+		D6B2983389480F48F27A0704EEB5DC81 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F272F6C2B556C197F7D550D387939BD /* RetryPolicy.swift */; };
+		D819A029B9707AFD84F745194DF369BC /* Pods-HealthyHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0E0F152C31F50231F5E28948A1BDD9 /* Pods-HealthyHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9043A31B9D566F9D23760A27FF01416 /* UIControl+CYLTabBarControllerExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2411CBC3EC85D7CF16AC297E68F83177 /* UIControl+CYLTabBarControllerExtention.m */; };
+		DA85165065575E942EB7C5895AB5DCCA /* CYLBadgeProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = A1270A014F93A894FC6FC52277DDC364 /* CYLBadgeProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBF78CD1D40B76F0BD3BF6A57705C6DD /* CYLTabBar+CYLTabBarControllerExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 81CFC377F41ECF20DBEC1937B18E6067 /* CYLTabBar+CYLTabBarControllerExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E07BD425C4EA9ADF15DDFCDB10D0B2FB /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECE0B2C36D65A83C3078C3A6AA30D32 /* MultipartUpload.swift */; };
+		E0AE7FF0FAACBB822DE83D26093B635C /* Pods-HealthyHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC07653E09A85299AC22DEFB26179A8F /* Pods-HealthyHome-dummy.m */; };
+		E41AE39DB82081D0E02126B2C22C1410 /* Pods-HealthyHome-HealthyHomeUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E10EA49B824351C12B91BAF8B4D5F8 /* Pods-HealthyHome-HealthyHomeUITests-dummy.m */; };
+		E4E12208D5246E64B7E6CCAE987ADB03 /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69831233320AA26243DAF0AC9FEEB2C /* URLRequest+Alamofire.swift */; };
+		E5938189529B1F8BD074BB166C8BDE57 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B409E961C49694CD4A375AF809757B /* SystemConfiguration.framework */; };
+		E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 637D32F6FA7DDA2C4EC88BA6B78E9FDB /* ReachabilitySwift-dummy.m */; };
 		E97D363DE7EB5DFEC2DA3973C1DACD06 /* Pods-HealthyHomeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA98B69EC27CF57357B3AC79A610CDF4 /* Pods-HealthyHomeTests-dummy.m */; };
-		F494195D25074ED3D267F9674EBA944F /* CYLBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6154E39EB23B61D08233FDB3D38121F /* CYLBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F910B6DA1E81A9A678C64D010BDB02DE /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 099D779C5FBA0A42B49C9FD500648C01 /* CYLBaseNavigationController.m */; };
-		FBCBC1C0A121C071D770BB41BEA6D547 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A53298A346AC8B3AB5676A00F92CCE /* CYLTabBar.m */; };
+		E9A5AC2F471699CCA516952A5FEB990B /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02DB2ECFDB16ADA421892251E93C47 /* DispatchQueue+Alamofire.swift */; };
+		F494195D25074ED3D267F9674EBA944F /* CYLBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F265061EFCCB7714683045341F8790B /* CYLBaseNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F71789DC91A75033EFB79DB828676451 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD31E72790EA79BC0B5B047BB0D07CBB /* Response.swift */; };
+		F910B6DA1E81A9A678C64D010BDB02DE /* CYLBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A32C4427C429E449F5EED4395F39DB2B /* CYLBaseNavigationController.m */; };
+		FBCBC1C0A121C071D770BB41BEA6D547 /* CYLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BFCD04E122B8CDB8AAE722BB55A268E /* CYLTabBar.m */; };
+		FC920C4C8EAE79EA670AB988A2B275CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		170E2DCE0A00B37C0D26FC60ED36DC24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		2A5EF82A4B8E4DA951779A06CECCB4E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		4E15434BAED1C1921253BCCBFF055DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 		82982BCFB81FCCF91EA978C9347F5DAC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -69,14 +132,21 @@
 			remoteGlobalIDString = D1F912A17CFEC905AA9492B3BF2E520E;
 			remoteInfo = "Pods-HealthyHome";
 		};
-		D3E2977C554E97ADAAC33F2D79C9D09B /* PBXContainerItemProxy */ = {
+		896226B17FA6B6B29D73B4873C8EEAD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B00B2C167CD783351BD1D00BD5AD1F8;
+			remoteInfo = ReachabilitySwift;
+		};
+		A877922416274449A6073705C219D32E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8534B493C62D81C69516B0E9599CEF36;
 			remoteInfo = CYLTabBarController;
 		};
-		D408EB18AB8CB10D982A2C1D9D7E1832 /* PBXContainerItemProxy */ = {
+		C6D9983584C8989D6F67FD7C0978DF4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -86,84 +156,133 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		030CA226B9EAD8410A33D35E3D41319F /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
+		0139B4903667D2D23C346CC3C53A07AB /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		03E10EA49B824351C12B91BAF8B4D5F8 /* Pods-HealthyHome-HealthyHomeUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthyHome-HealthyHomeUITests-dummy.m"; sourceTree = "<group>"; };
-		05DCA2BBDEA407583F9739BDBD0993DE /* CYLTabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CYLTabBar+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		099D779C5FBA0A42B49C9FD500648C01 /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseNavigationController.m; path = CYLTabBarController/CYLBaseNavigationController.m; sourceTree = "<group>"; };
-		0A7E2F0D0BAF0E1ACBD8DCF7F034D819 /* CYLTabBarController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.debug.xcconfig; sourceTree = "<group>"; };
+		050F22BDE95BCCF02CAE264895AA17A2 /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		08899C8B2AB111063D40658369322022 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		0A93B3D54DD38F3E34F08C1BE2906494 /* Pods-HealthyHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyHome.debug.xcconfig"; sourceTree = "<group>"; };
-		0B428D6A1815195161F3C4CDC059081C /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseTableViewController.m; path = CYLTabBarController/CYLBaseTableViewController.m; sourceTree = "<group>"; };
 		0CF1FF7435053987DA54B2AD88D49A4F /* Pods-HealthyHome-HealthyHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyHome-HealthyHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0D01C694363CF083CD9F0A398D9841C7 /* UIImage+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
 		0E0E0F152C31F50231F5E28948A1BDD9 /* Pods-HealthyHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthyHome-umbrella.h"; sourceTree = "<group>"; };
-		0FB037944B69922FBAA22468E339711F /* CYLTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYLTabBarController-Info.plist"; sourceTree = "<group>"; };
+		0ECC310F0B1B2E82DC4B8A7461ECDF81 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		0ECE0B2C36D65A83C3078C3A6AA30D32 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		0EDF29108F69D5461813BEA973FEF022 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		10284CBA6A776BFE2471A9B6D57D71F4 /* Pods-HealthyHomeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyHomeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		116FA982E196091138B70BFEECBC54C9 /* Pods-HealthyHome-HealthyHomeUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthyHome-HealthyHomeUITests-frameworks.sh"; sourceTree = "<group>"; };
-		135F159BFA1437A2E2B78B3B66FD1032 /* UIBarButtonItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		16C206D89E473F0CCDB5A94D8BFC8D7F /* NSObject+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		11A6E16827FA85EDF2EC3CECFC664A23 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		124F5DA03786ACEC5741972CF4962431 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		14E00E3C53AE66EC6F8A14AEEF92F78B /* ReachabilitySwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ReachabilitySwift-Info.plist"; sourceTree = "<group>"; };
+		15B4432B95FEE6767BB55A10C39A1EB4 /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
 		17882896901EFA6198AA9BC9C3D8C44A /* Pods_HealthyHome_HealthyHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthyHome_HealthyHomeUITests.framework; path = "Pods-HealthyHome-HealthyHomeUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		17BB30561D8C2B15A97DAF45A2BAF7BD /* Pods-HealthyHomeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthyHomeTests.modulemap"; sourceTree = "<group>"; };
+		17C7497B2CAAF57B6D9B3DC94E987A66 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
 		17DCE097B238EAAA5FFEC4F43CA710E8 /* Pods-HealthyHomeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthyHomeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		185CA517877F564CCAACEDE9BCC71AA5 /* UITabBarItem+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLBadgeExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		18D026BCA00DAC4761F2BD849217B2AD /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLBadgeExtention.m"; path = "CYLTabBarController/UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
-		22600D48C832A41DF14E92999F38C040 /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
+		19C1C4FAC904FA987CFF27709D7A50BA /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		1D93FD8C2E8489292497D36CDCB8131A /* UIColor+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		21B03CA622E690725A6626C088E1D09F /* Reachability.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Reachability.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2411CBC3EC85D7CF16AC297E68F83177 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
 		244164C8F2682CC0B5887970098A4C0C /* Pods-HealthyHome-HealthyHomeUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthyHome-HealthyHomeUITests.modulemap"; sourceTree = "<group>"; };
-		24F2213CE8B1E254C5C03935B9F63C0E /* UIImage+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		26EFD5F3DABCC04112F73748401E584C /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		27353BF3794969D869C5275DAD40CF72 /* NSObject+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		26CF63219ABA1A432562305B3BA78C09 /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
+		29A7DC97DB2A60CB29A44334CE2580C7 /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
 		2E5ECB2285F3F458DAD882F53B701380 /* Pods-HealthyHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyHomeTests.release.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		362C2151EF50AF9B8022037308AD2636 /* UIColor+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		2F1BB84836F61A811EA90ADAAEFC3BA1 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		30C567955DE992507BF8E1BCFA7A9DE4 /* UITabBarItem+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		3120B24A57C9566AD5AECD5C4CF055D8 /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
 		3781C805628A27010726ABA09E030ED3 /* Pods-HealthyHome-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyHome-acknowledgements.plist"; sourceTree = "<group>"; };
-		3AB54E403C587386A11894AFE0B569E9 /* UIColor+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		4048D4923AD8962A29AE735FBFC0CD86 /* CYLTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-umbrella.h"; sourceTree = "<group>"; };
-		4A1FE9A742C818781D1DA3E1AAA8362E /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
-		4E5857E680A44FCD0C6EE5BA6D65AEF0 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		51132602897E4A23CAC42419B6E859B4 /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+CYLBadgeExtention.m"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		3B221D7903A182FCDAD2EBCAD74C14F4 /* UIView+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLBadgeExtention.m"; path = "CYLTabBarController/UIView+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		3C2E7EAEB15B3128D759F9481E9D92F2 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		3D272A270C727635EDE92D47DC6E7490 /* UIColor+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIColor+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		3EF113594843E198B09580DDDCB4C914 /* CYLPlusButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLPlusButton.h; path = CYLTabBarController/CYLPlusButton.h; sourceTree = "<group>"; };
+		45259947F8D426A056038EB85C92C640 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		4BFCD04E122B8CDB8AAE722BB55A268E /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
+		4D3D52DDD120683EDC3552BC2FD90448 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		4E8049DD3F54D80BA67481AFD4AA31E4 /* CYLTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBar.h; path = CYLTabBarController/CYLTabBar.h; sourceTree = "<group>"; };
+		51158BE5B13B6EC48B3C1F05B22C592D /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		5224685BCC739535736402A99932ADCA /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
 		5369020A383ABD5DC6C67982BD7F3109 /* Pods-HealthyHome-HealthyHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyHome-HealthyHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		53E2D8FDC0CE42D9A26CEAA47012CFC8 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		5405C0C0D45ECA0143D80A7EBACBF6BC /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		54D5E770D8A01AC2E7A8A7F56F17323C /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		56315DC777920F012EE8764CA05C3F0D /* CYLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLConstants.h; path = CYLTabBarController/CYLConstants.h; sourceTree = "<group>"; };
+		58D1F82E7A13E6AE1A3E643F024C9B0E /* NSObject+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A799F972A540CF6C36681434F542111 /* Pods_HealthyHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthyHomeTests.framework; path = "Pods-HealthyHomeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CC79DBA3190E27693C2048AEFF9BB1A /* UIView+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		67DE7EDA180499D36CF21639CE20DD64 /* UITabBarItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UITabBarItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		623972597CBF434B0178267378895277 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		62E1718422A4947215EFF498A7C38D4F /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		637D32F6FA7DDA2C4EC88BA6B78E9FDB /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		6846940BF6314563B63C4B65F9DEA752 /* Pods-HealthyHome-HealthyHomeUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyHome-HealthyHomeUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		72A53298A346AC8B3AB5676A00F92CCE /* CYLTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBar.m; path = CYLTabBarController/CYLTabBar.m; sourceTree = "<group>"; };
+		6DE6DF1408C18812D310D6E8BCDF6810 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		6ECF5F6CAAB60EDAE661DD3A4507FB6E /* CYLTabBarController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CYLTabBarController-Info.plist"; sourceTree = "<group>"; };
+		6F272F6C2B556C197F7D550D387939BD /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		7137B79F037C25D9A74BE58473350778 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		729EB9E594C27ECD6DAA430501B1508D /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
 		72F37C602265A23608CC643DDC05515F /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthyHome-HealthyHomeUITests-umbrella.h"; sourceTree = "<group>"; };
+		74195BF229F1D71C2F5932B9AE5C8EA2 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		743F96B644F7F535EAE772C0A77DD3DA /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		75511942AD8E157B11A74C6A3E1B750D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		75A16D51745D273C122792C2EB7255B0 /* Pods-HealthyHomeTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyHomeTests-Info.plist"; sourceTree = "<group>"; };
-		7642EA292166C33D888A169D41010E8D /* CYLPlusButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLPlusButton.m; path = CYLTabBarController/CYLPlusButton.m; sourceTree = "<group>"; };
-		775D1847DF0C097AE7FF59230E76B03A /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+CYLBadgeExtention.h"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
 		78C148BA713B603B669B44048A613E1B /* Pods-HealthyHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HealthyHome.modulemap"; sourceTree = "<group>"; };
+		7A647C08C4370F0024953F0216334494 /* CAAnimation+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CAAnimation+CYLBadgeExtention.m"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		7E30F9B991B5A2218785E25BE7692733 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		7E367EA08DF21CCCC908BF4079902A2E /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		7F265061EFCCB7714683045341F8790B /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseNavigationController.h; path = CYLTabBarController/CYLBaseNavigationController.h; sourceTree = "<group>"; };
+		802AB07FDA0EF0BE86FBDE598A4F3C13 /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLBadgeExtention.h"; path = "CYLTabBarController/UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
 		80B3B46CFB584B807EA1EDD05A426C1D /* Pods-HealthyHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
-		8173EE800CE7757D42F50B27461DAFD3 /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
-		8CC3309CF8044889EC6D056FB9B31FCC /* CYLTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLTabBarController.h; path = CYLTabBarController/CYLTabBarController.h; sourceTree = "<group>"; };
+		81CFC377F41ECF20DBEC1937B18E6067 /* CYLTabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CYLTabBar+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		82F36828AD571A7163CB13E3CE91E508 /* Protector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protector.swift; path = Source/Protector.swift; sourceTree = "<group>"; };
+		85A4CA5B77F1232C191E004579B562EC /* CYLTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.xcconfig; sourceTree = "<group>"; };
+		876ADCA21DC8F829D8214B7DCE654EE8 /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLNavigationControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		8DB6BFF4A26B55CBEBCC7EB9610E82A3 /* NSObject+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/NSObject+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
 		906A19E93F2CFBE91C4D117B04626B12 /* CYLTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CYLTabBarController.framework; path = CYLTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90DB11FC7114A74AD1D26E4036BF5F0F /* CYLTabBarController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-umbrella.h"; sourceTree = "<group>"; };
+		95C619FCDB92853011A8250105632C27 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		96072FB5F422B0BD1EF3B84C400DBA28 /* Pods-HealthyHome-HealthyHomeUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyHome-HealthyHomeUITests-Info.plist"; sourceTree = "<group>"; };
 		975858FD13B375C69FA936F3289D1297 /* Pods-HealthyHome-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HealthyHome-Info.plist"; sourceTree = "<group>"; };
-		98434C26ECD1F117C09B32AC8FFEED6A /* UITabBarItem+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UITabBarItem+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		987F90B7160835EF5E57CBFE7E00DA7F /* CYLTabBar+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CYLTabBar+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		9C62410448439148AF09EAB85824149B /* CYLTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYLTabBarController.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4AD099BE76C6BBBA5B87650286F011 /* CYLTabBarController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CYLTabBarController.release.xcconfig; sourceTree = "<group>"; };
-		A0624631D98DBFED52F274B9A1DE701A /* UIView+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CYLBadgeExtention.h"; path = "CYLTabBarController/UIView+CYLBadgeExtention.h"; sourceTree = "<group>"; };
-		A3F1577A8DD0AADCE6018DDC965E04D1 /* CYLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseViewController.h; path = CYLTabBarController/CYLBaseViewController.h; sourceTree = "<group>"; };
-		A4A86CEF0A51A8D8F6DD8B27BFE27B5F /* UIControl+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
-		AA7D398115E4EDD9DB9BA6707CA92D73 /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBadgeProtocol.h; path = CYLTabBarController/CYLBadgeProtocol.h; sourceTree = "<group>"; };
-		AB25AA77ABC00B5F11C993EF007EA6A3 /* CYLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseViewController.m; path = CYLTabBarController/CYLBaseViewController.m; sourceTree = "<group>"; };
-		B6154E39EB23B61D08233FDB3D38121F /* CYLBaseNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseNavigationController.h; path = CYLTabBarController/CYLBaseNavigationController.h; sourceTree = "<group>"; };
-		BB3C39781953A8125D96FDCD2DC039A6 /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
-		C24880674C0977EB4D71CF204869F66D /* UIViewController+CYLNavigationControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLNavigationControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.m"; sourceTree = "<group>"; };
+		A1270A014F93A894FC6FC52277DDC364 /* CYLBadgeProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBadgeProtocol.h; path = CYLTabBarController/CYLBadgeProtocol.h; sourceTree = "<group>"; };
+		A32C4427C429E449F5EED4395F39DB2B /* CYLBaseNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseNavigationController.m; path = CYLTabBarController/CYLBaseNavigationController.m; sourceTree = "<group>"; };
+		A75CD4DBA659F456F16B7E9DD4BEC272 /* CYLBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseViewController.m; path = CYLTabBarController/CYLBaseViewController.m; sourceTree = "<group>"; };
+		A7A6FA32233C986E515F133B049F470B /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		A9D469ED1015D1DC88D41B75DF4FBC43 /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseTableViewController.h; path = CYLTabBarController/CYLBaseTableViewController.h; sourceTree = "<group>"; };
+		AA4E7D2F9A89E0CC16FC90E689FE247E /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		B01AB752624EC60E951E4D7545312F74 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		B3495D9C5059344833FF8A8E3A28B359 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		B89B7CE28D293BFE7C334014F69A42A4 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		BBBE1B7AED2ADDA81B9C77E1C666E851 /* UIImage+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		BC0D031273B461BAD31D02D3C9D56139 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		BD31E72790EA79BC0B5B047BB0D07CBB /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		BE9E901C11592E8009B825630A8F290C /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		C36C6190CC43DE48FE9293701CE9AA96 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		C7AD74FF139BA5C42895C49470504C5F /* Pods-HealthyHome-HealthyHomeUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthyHome-HealthyHomeUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7B0370075336B41DBE9FD8A977C9A0A /* Pods-HealthyHomeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HealthyHomeTests-umbrella.h"; sourceTree = "<group>"; };
-		C8DBBA8B919DDBC40B379F5B7ECEF5C4 /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLNavigationControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
 		CA98B69EC27CF57357B3AC79A610CDF4 /* Pods-HealthyHomeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthyHomeTests-dummy.m"; sourceTree = "<group>"; };
-		CA9FDFD83E158CDDB6DDDC46A094BBAC /* UIImage+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIImage+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		CC3AB14F22961905F9F178D316917725 /* CYLTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLTabBarController.m; path = CYLTabBarController/CYLTabBarController.m; sourceTree = "<group>"; };
+		CF3A6291D0B7682CD611B7859942E231 /* UIViewController+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		CFA6B93ACF497B6A7D310206B5D03F19 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		D1B1D11681D579DFDE5E7F09764635EA /* Pods_HealthyHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HealthyHome.framework; path = "Pods-HealthyHome.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D20BFD40040FE1D459B9225C5AE3F295 /* UIViewController+CYLTabBarControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLTabBarControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLTabBarControllerExtention.h"; sourceTree = "<group>"; };
+		D5B409E961C49694CD4A375AF809757B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D69831233320AA26243DAF0AC9FEEB2C /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		D7396AE2AB28CB2FD835CBAD884F5485 /* CYLTabBar+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CYLTabBar+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/CYLTabBar+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		D875571B57E0AA7A960E5B8C09A47EB6 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		DADCCE2F7AD70B2AF909C21909024B17 /* CAAnimation+CYLBadgeExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CAAnimation+CYLBadgeExtention.h"; path = "CYLTabBarController/CAAnimation+CYLBadgeExtention.h"; sourceTree = "<group>"; };
+		DC0EC57E8FD3D29BEBFB0B2C50D07E88 /* CYLBaseTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CYLBaseTableViewController.m; path = CYLTabBarController/CYLBaseTableViewController.m; sourceTree = "<group>"; };
 		DDA7DD5B5DBCBAD0F027C77475ACB37C /* Pods-HealthyHome-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HealthyHome-frameworks.sh"; sourceTree = "<group>"; };
-		DFC95F71E7BBE7E7B5D262095969C49F /* UIView+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIView+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
-		E7800F21E1A1CBC62DC92352AB8884F9 /* CYLBaseTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseTableViewController.h; path = CYLTabBarController/CYLBaseTableViewController.h; sourceTree = "<group>"; };
-		EE35A313796596E42CCFC21D1E381864 /* CYLTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CYLTabBarController.modulemap; sourceTree = "<group>"; };
-		F2661BF2DEF944EA0C2EF3F9654D4E01 /* CYLConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLConstants.h; path = CYLTabBarController/CYLConstants.h; sourceTree = "<group>"; };
+		DEC9EC6F4A04FFCC08FEE7B44F7E724E /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		E3114558B06F7669155647EC1DE85814 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Sources/Reachability.swift; sourceTree = "<group>"; };
+		E4151777AE911590EB597DC269344EB6 /* CYLTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CYLTabBarController-dummy.m"; sourceTree = "<group>"; };
+		E45F70D428ADDDDB72A16DC9DF90A3D3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		E5BB97DD7B71A7E268B4BA56BC1922D5 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		E742417F340E6318E0929BC4D90AE1FA /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
+		E8F193A60EBA5A16324F9C0345FA64D2 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		EA02DB2ECFDB16ADA421892251E93C47 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		F33CF6E44B49CE573E17ADD69D98D9E7 /* Pods-HealthyHome-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HealthyHome-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FABA927C9363534A471ADE67E8516D55 /* UIControl+CYLTabBarControllerExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+CYLTabBarControllerExtention.m"; path = "CYLTabBarController/UIControl+CYLTabBarControllerExtention.m"; sourceTree = "<group>"; };
+		F55FF752EB69D085174E7CC11DC00E8D /* UIViewController+CYLNavigationControllerExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CYLNavigationControllerExtention.h"; path = "CYLTabBarController/UIViewController+CYLNavigationControllerExtention.h"; sourceTree = "<group>"; };
 		FC07653E09A85299AC22DEFB26179A8F /* Pods-HealthyHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HealthyHome-dummy.m"; sourceTree = "<group>"; };
-		FE537E953DACC642DCCEC3FB7439A38A /* UIBarButtonItem+CYLBadgeExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+CYLBadgeExtention.m"; path = "CYLTabBarController/UIBarButtonItem+CYLBadgeExtention.m"; sourceTree = "<group>"; };
+		FC692C21D4EB9ABD75FE3FBCF2FC47BD /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		FEFF5FC46981B535384279F33031CF93 /* CYLBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CYLBaseViewController.h; path = CYLTabBarController/CYLBaseViewController.h; sourceTree = "<group>"; };
+		FF370A37A749A4905EBF3D668D3200FA /* CYLTabBarController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CYLTabBarController-prefix.pch"; sourceTree = "<group>"; };
 		FF39DE0A9C0B152E513A4A93E2C1EC28 /* Pods-HealthyHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HealthyHome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,19 +295,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2E1DF02588619419B8AA84AC6544FB7D /* Frameworks */ = {
+		45D8F62784562F167908859C43974987 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4EDEB378A6EB622E5144F8F562C496E /* Foundation.framework in Frameworks */,
+				FC920C4C8EAE79EA670AB988A2B275CB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7810751B3A9C724349DBDA82057C90EA /* Frameworks */ = {
+		4F534DCE98EC81CF7932D5EF0E4D6EC9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C349C619E901304D79ED750F76D3B278 /* Foundation.framework in Frameworks */,
+				45130C4908DB5DCFB2793DCB8A3E1398 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B0D8633F410345F93419B8C3D7B6916 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97A168DFB6DB61770CE2DBF4FD39AA8D /* CFNetwork.framework in Frameworks */,
+				BE82AE980F8C7EE28A6448959194F93A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +328,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		92A37A51219ED31062DE51A3E139BF37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89A589D04411197399D7FCF7159AAE0A /* CoreTelephony.framework in Frameworks */,
+				33CF97469D3F267E887B8320493B195A /* Foundation.framework in Frameworks */,
+				E5938189529B1F8BD074BB166C8BDE57 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		197CE8E4226F9C59AF7C4FFA79BF1F7F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E45F70D428ADDDDB72A16DC9DF90A3D3 /* CFNetwork.framework */,
+				4D3D52DDD120683EDC3552BC2FD90448 /* CoreTelephony.framework */,
+				59D1A21C359A32CBC61D9A3B979039DE /* Foundation.framework */,
+				D5B409E961C49694CD4A375AF809757B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		217C73D856B2D92175ED0C28B55EF691 /* Pods-HealthyHomeTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,14 +366,6 @@
 			);
 			name = "Pods-HealthyHomeTests";
 			path = "Target Support Files/Pods-HealthyHomeTests";
-			sourceTree = "<group>";
-		};
-		3C490DE99886A993FC06ACD7C393EC25 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				EE63A7B9C06AA1C5F5F1BF5305095E44 /* CYLTabBarController */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		82D9E598F38A8BA1ECBE627598DCC939 /* Pods-HealthyHome-HealthyHomeUITests */ = {
@@ -244,53 +385,6 @@
 			path = "Target Support Files/Pods-HealthyHome-HealthyHomeUITests";
 			sourceTree = "<group>";
 		};
-		874F8CE6FF447FCD9D00A988C18BBCF6 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				775D1847DF0C097AE7FF59230E76B03A /* CAAnimation+CYLBadgeExtention.h */,
-				51132602897E4A23CAC42419B6E859B4 /* CAAnimation+CYLBadgeExtention.m */,
-				AA7D398115E4EDD9DB9BA6707CA92D73 /* CYLBadgeProtocol.h */,
-				B6154E39EB23B61D08233FDB3D38121F /* CYLBaseNavigationController.h */,
-				099D779C5FBA0A42B49C9FD500648C01 /* CYLBaseNavigationController.m */,
-				E7800F21E1A1CBC62DC92352AB8884F9 /* CYLBaseTableViewController.h */,
-				0B428D6A1815195161F3C4CDC059081C /* CYLBaseTableViewController.m */,
-				A3F1577A8DD0AADCE6018DDC965E04D1 /* CYLBaseViewController.h */,
-				AB25AA77ABC00B5F11C993EF007EA6A3 /* CYLBaseViewController.m */,
-				F2661BF2DEF944EA0C2EF3F9654D4E01 /* CYLConstants.h */,
-				030CA226B9EAD8410A33D35E3D41319F /* CYLPlusButton.h */,
-				7642EA292166C33D888A169D41010E8D /* CYLPlusButton.m */,
-				4A1FE9A742C818781D1DA3E1AAA8362E /* CYLTabBar.h */,
-				72A53298A346AC8B3AB5676A00F92CCE /* CYLTabBar.m */,
-				987F90B7160835EF5E57CBFE7E00DA7F /* CYLTabBar+CYLTabBarControllerExtention.h */,
-				05DCA2BBDEA407583F9739BDBD0993DE /* CYLTabBar+CYLTabBarControllerExtention.m */,
-				8CC3309CF8044889EC6D056FB9B31FCC /* CYLTabBarController.h */,
-				8173EE800CE7757D42F50B27461DAFD3 /* CYLTabBarController.m */,
-				16C206D89E473F0CCDB5A94D8BFC8D7F /* NSObject+CYLTabBarControllerExtention.h */,
-				27353BF3794969D869C5275DAD40CF72 /* NSObject+CYLTabBarControllerExtention.m */,
-				135F159BFA1437A2E2B78B3B66FD1032 /* UIBarButtonItem+CYLBadgeExtention.h */,
-				FE537E953DACC642DCCEC3FB7439A38A /* UIBarButtonItem+CYLBadgeExtention.m */,
-				3AB54E403C587386A11894AFE0B569E9 /* UIColor+CYLTabBarControllerExtention.h */,
-				362C2151EF50AF9B8022037308AD2636 /* UIColor+CYLTabBarControllerExtention.m */,
-				A4A86CEF0A51A8D8F6DD8B27BFE27B5F /* UIControl+CYLTabBarControllerExtention.h */,
-				FABA927C9363534A471ADE67E8516D55 /* UIControl+CYLTabBarControllerExtention.m */,
-				CA9FDFD83E158CDDB6DDDC46A094BBAC /* UIImage+CYLTabBarControllerExtention.h */,
-				24F2213CE8B1E254C5C03935B9F63C0E /* UIImage+CYLTabBarControllerExtention.m */,
-				185CA517877F564CCAACEDE9BCC71AA5 /* UITabBarItem+CYLBadgeExtention.h */,
-				67DE7EDA180499D36CF21639CE20DD64 /* UITabBarItem+CYLBadgeExtention.m */,
-				98434C26ECD1F117C09B32AC8FFEED6A /* UITabBarItem+CYLTabBarControllerExtention.h */,
-				26EFD5F3DABCC04112F73748401E584C /* UITabBarItem+CYLTabBarControllerExtention.m */,
-				A0624631D98DBFED52F274B9A1DE701A /* UIView+CYLBadgeExtention.h */,
-				18D026BCA00DAC4761F2BD849217B2AD /* UIView+CYLBadgeExtention.m */,
-				5CC79DBA3190E27693C2048AEFF9BB1A /* UIView+CYLTabBarControllerExtention.h */,
-				DFC95F71E7BBE7E7B5D262095969C49F /* UIView+CYLTabBarControllerExtention.m */,
-				C8DBBA8B919DDBC40B379F5B7ECEF5C4 /* UIViewController+CYLNavigationControllerExtention.h */,
-				C24880674C0977EB4D71CF204869F66D /* UIViewController+CYLNavigationControllerExtention.m */,
-				D20BFD40040FE1D459B9225C5AE3F295 /* UIViewController+CYLTabBarControllerExtention.h */,
-				4E5857E680A44FCD0C6EE5BA6D65AEF0 /* UIViewController+CYLTabBarControllerExtention.m */,
-			);
-			name = Core;
-			sourceTree = "<group>";
-		};
 		90837FAEB9B22E1D90B81FE0E87CE360 /* Pods-HealthyHome */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,57 +402,108 @@
 			path = "Target Support Files/Pods-HealthyHome";
 			sourceTree = "<group>";
 		};
-		B56F6BC3175E55CA4FFB6E7514232B19 /* Products */ = {
+		99CC7ECB54FC6AE01F96C67F05B75447 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				906A19E93F2CFBE91C4D117B04626B12 /* CYLTabBarController.framework */,
-				D1B1D11681D579DFDE5E7F09764635EA /* Pods_HealthyHome.framework */,
-				17882896901EFA6198AA9BC9C3D8C44A /* Pods_HealthyHome_HealthyHomeUITests.framework */,
-				5A799F972A540CF6C36681434F542111 /* Pods_HealthyHomeTests.framework */,
+				F219D3728CEB1F077EB19F9FE696D3DE /* Alamofire */,
+				9F97DE033036DF791D13E905736210FB /* CYLTabBarController */,
+				C1E177A34F670D16E23A272F19056D2C /* ReachabilitySwift */,
 			);
-			name = Products;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		BED690D8AB79E3D5530D23AA65512FA9 /* Support Files */ = {
+		9F97DE033036DF791D13E905736210FB /* CYLTabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				EE35A313796596E42CCFC21D1E381864 /* CYLTabBarController.modulemap */,
-				22600D48C832A41DF14E92999F38C040 /* CYLTabBarController-dummy.m */,
-				0FB037944B69922FBAA22468E339711F /* CYLTabBarController-Info.plist */,
-				BB3C39781953A8125D96FDCD2DC039A6 /* CYLTabBarController-prefix.pch */,
-				4048D4923AD8962A29AE735FBFC0CD86 /* CYLTabBarController-umbrella.h */,
-				0A7E2F0D0BAF0E1ACBD8DCF7F034D819 /* CYLTabBarController.debug.xcconfig */,
-				9E4AD099BE76C6BBBA5B87650286F011 /* CYLTabBarController.release.xcconfig */,
+				F0DD75155B21BDB9DEBEC90C9B466305 /* Core */,
+				A24E79C7CF65FB3715284F7691A7F86E /* Support Files */,
+			);
+			name = CYLTabBarController;
+			path = CYLTabBarController;
+			sourceTree = "<group>";
+		};
+		A24E79C7CF65FB3715284F7691A7F86E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C62410448439148AF09EAB85824149B /* CYLTabBarController.modulemap */,
+				85A4CA5B77F1232C191E004579B562EC /* CYLTabBarController.xcconfig */,
+				E4151777AE911590EB597DC269344EB6 /* CYLTabBarController-dummy.m */,
+				6ECF5F6CAAB60EDAE661DD3A4507FB6E /* CYLTabBarController-Info.plist */,
+				FF370A37A749A4905EBF3D668D3200FA /* CYLTabBarController-prefix.pch */,
+				90DB11FC7114A74AD1D26E4036BF5F0F /* CYLTabBarController-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/CYLTabBarController";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				197CE8E4226F9C59AF7C4FFA79BF1F7F /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C192863A65DA509B2B61162756DCA744 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				74195BF229F1D71C2F5932B9AE5C8EA2 /* Alamofire.modulemap */,
+				E5BB97DD7B71A7E268B4BA56BC1922D5 /* Alamofire.xcconfig */,
+				CFA6B93ACF497B6A7D310206B5D03F19 /* Alamofire-dummy.m */,
+				AA4E7D2F9A89E0CC16FC90E689FE247E /* Alamofire-Info.plist */,
+				124F5DA03786ACEC5741972CF4962431 /* Alamofire-prefix.pch */,
+				FC692C21D4EB9ABD75FE3FBCF2FC47BD /* Alamofire-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		C1E177A34F670D16E23A272F19056D2C /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				E3114558B06F7669155647EC1DE85814 /* Reachability.swift */,
+				CCE5D21A5359DF1CAB6DDF4BC012F0F7 /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		CC5B331F1FCE0984E69C511701F800D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				906A19E93F2CFBE91C4D117B04626B12 /* CYLTabBarController.framework */,
+				D1B1D11681D579DFDE5E7F09764635EA /* Pods_HealthyHome.framework */,
+				17882896901EFA6198AA9BC9C3D8C44A /* Pods_HealthyHome_HealthyHomeUITests.framework */,
+				5A799F972A540CF6C36681434F542111 /* Pods_HealthyHomeTests.framework */,
+				21B03CA622E690725A6626C088E1D09F /* Reachability.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCE5D21A5359DF1CAB6DDF4BC012F0F7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3495D9C5059344833FF8A8E3A28B359 /* ReachabilitySwift.modulemap */,
+				2F1BB84836F61A811EA90ADAAEFC3BA1 /* ReachabilitySwift.xcconfig */,
+				637D32F6FA7DDA2C4EC88BA6B78E9FDB /* ReachabilitySwift-dummy.m */,
+				14E00E3C53AE66EC6F8A14AEEF92F78B /* ReachabilitySwift-Info.plist */,
+				E742417F340E6318E0929BC4D90AE1FA /* ReachabilitySwift-prefix.pch */,
+				17C7497B2CAAF57B6D9B3DC94E987A66 /* ReachabilitySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ReachabilitySwift";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3C490DE99886A993FC06ACD7C393EC25 /* Pods */,
-				B56F6BC3175E55CA4FFB6E7514232B19 /* Products */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				99CC7ECB54FC6AE01F96C67F05B75447 /* Pods */,
+				CC5B331F1FCE0984E69C511701F800D9 /* Products */,
 				E02E09A0607BB5D30F48BEF44E400B23 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E02E09A0607BB5D30F48BEF44E400B23 /* Targets Support Files */ = {
@@ -371,24 +516,110 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EE63A7B9C06AA1C5F5F1BF5305095E44 /* CYLTabBarController */ = {
+		F0DD75155B21BDB9DEBEC90C9B466305 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				874F8CE6FF447FCD9D00A988C18BBCF6 /* Core */,
-				BED690D8AB79E3D5530D23AA65512FA9 /* Support Files */,
+				DADCCE2F7AD70B2AF909C21909024B17 /* CAAnimation+CYLBadgeExtention.h */,
+				7A647C08C4370F0024953F0216334494 /* CAAnimation+CYLBadgeExtention.m */,
+				A1270A014F93A894FC6FC52277DDC364 /* CYLBadgeProtocol.h */,
+				7F265061EFCCB7714683045341F8790B /* CYLBaseNavigationController.h */,
+				A32C4427C429E449F5EED4395F39DB2B /* CYLBaseNavigationController.m */,
+				A9D469ED1015D1DC88D41B75DF4FBC43 /* CYLBaseTableViewController.h */,
+				DC0EC57E8FD3D29BEBFB0B2C50D07E88 /* CYLBaseTableViewController.m */,
+				FEFF5FC46981B535384279F33031CF93 /* CYLBaseViewController.h */,
+				A75CD4DBA659F456F16B7E9DD4BEC272 /* CYLBaseViewController.m */,
+				56315DC777920F012EE8764CA05C3F0D /* CYLConstants.h */,
+				3EF113594843E198B09580DDDCB4C914 /* CYLPlusButton.h */,
+				26CF63219ABA1A432562305B3BA78C09 /* CYLPlusButton.m */,
+				4E8049DD3F54D80BA67481AFD4AA31E4 /* CYLTabBar.h */,
+				4BFCD04E122B8CDB8AAE722BB55A268E /* CYLTabBar.m */,
+				81CFC377F41ECF20DBEC1937B18E6067 /* CYLTabBar+CYLTabBarControllerExtention.h */,
+				D7396AE2AB28CB2FD835CBAD884F5485 /* CYLTabBar+CYLTabBarControllerExtention.m */,
+				29A7DC97DB2A60CB29A44334CE2580C7 /* CYLTabBarController.h */,
+				CC3AB14F22961905F9F178D316917725 /* CYLTabBarController.m */,
+				58D1F82E7A13E6AE1A3E643F024C9B0E /* NSObject+CYLTabBarControllerExtention.h */,
+				8DB6BFF4A26B55CBEBCC7EB9610E82A3 /* NSObject+CYLTabBarControllerExtention.m */,
+				050F22BDE95BCCF02CAE264895AA17A2 /* UIBarButtonItem+CYLBadgeExtention.h */,
+				DEC9EC6F4A04FFCC08FEE7B44F7E724E /* UIBarButtonItem+CYLBadgeExtention.m */,
+				3D272A270C727635EDE92D47DC6E7490 /* UIColor+CYLTabBarControllerExtention.h */,
+				1D93FD8C2E8489292497D36CDCB8131A /* UIColor+CYLTabBarControllerExtention.m */,
+				62E1718422A4947215EFF498A7C38D4F /* UIControl+CYLTabBarControllerExtention.h */,
+				2411CBC3EC85D7CF16AC297E68F83177 /* UIControl+CYLTabBarControllerExtention.m */,
+				0D01C694363CF083CD9F0A398D9841C7 /* UIImage+CYLTabBarControllerExtention.h */,
+				BBBE1B7AED2ADDA81B9C77E1C666E851 /* UIImage+CYLTabBarControllerExtention.m */,
+				15B4432B95FEE6767BB55A10C39A1EB4 /* UITabBarItem+CYLBadgeExtention.h */,
+				3C2E7EAEB15B3128D759F9481E9D92F2 /* UITabBarItem+CYLBadgeExtention.m */,
+				729EB9E594C27ECD6DAA430501B1508D /* UITabBarItem+CYLTabBarControllerExtention.h */,
+				30C567955DE992507BF8E1BCFA7A9DE4 /* UITabBarItem+CYLTabBarControllerExtention.m */,
+				802AB07FDA0EF0BE86FBDE598A4F3C13 /* UIView+CYLBadgeExtention.h */,
+				3B221D7903A182FCDAD2EBCAD74C14F4 /* UIView+CYLBadgeExtention.m */,
+				3120B24A57C9566AD5AECD5C4CF055D8 /* UIView+CYLTabBarControllerExtention.h */,
+				54D5E770D8A01AC2E7A8A7F56F17323C /* UIView+CYLTabBarControllerExtention.m */,
+				F55FF752EB69D085174E7CC11DC00E8D /* UIViewController+CYLNavigationControllerExtention.h */,
+				876ADCA21DC8F829D8214B7DCE654EE8 /* UIViewController+CYLNavigationControllerExtention.m */,
+				B89B7CE28D293BFE7C334014F69A42A4 /* UIViewController+CYLTabBarControllerExtention.h */,
+				CF3A6291D0B7682CD611B7859942E231 /* UIViewController+CYLTabBarControllerExtention.m */,
 			);
-			name = CYLTabBarController;
-			path = CYLTabBarController;
+			name = Core;
+			sourceTree = "<group>";
+		};
+		F219D3728CEB1F077EB19F9FE696D3DE /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				0139B4903667D2D23C346CC3C53A07AB /* AFError.swift */,
+				7137B79F037C25D9A74BE58473350778 /* Alamofire.swift */,
+				623972597CBF434B0178267378895277 /* AlamofireExtended.swift */,
+				0ECC310F0B1B2E82DC4B8A7461ECDF81 /* CachedResponseHandler.swift */,
+				EA02DB2ECFDB16ADA421892251E93C47 /* DispatchQueue+Alamofire.swift */,
+				BC0D031273B461BAD31D02D3C9D56139 /* EventMonitor.swift */,
+				743F96B644F7F535EAE772C0A77DD3DA /* HTTPHeaders.swift */,
+				5224685BCC739535736402A99932ADCA /* HTTPMethod.swift */,
+				11A6E16827FA85EDF2EC3CECFC664A23 /* MultipartFormData.swift */,
+				0ECE0B2C36D65A83C3078C3A6AA30D32 /* MultipartUpload.swift */,
+				53E2D8FDC0CE42D9A26CEAA47012CFC8 /* NetworkReachabilityManager.swift */,
+				7E367EA08DF21CCCC908BF4079902A2E /* Notifications.swift */,
+				45259947F8D426A056038EB85C92C640 /* OperationQueue+Alamofire.swift */,
+				A7A6FA32233C986E515F133B049F470B /* ParameterEncoder.swift */,
+				B01AB752624EC60E951E4D7545312F74 /* ParameterEncoding.swift */,
+				82F36828AD571A7163CB13E3CE91E508 /* Protector.swift */,
+				BE9E901C11592E8009B825630A8F290C /* RedirectHandler.swift */,
+				95C619FCDB92853011A8250105632C27 /* Request.swift */,
+				5405C0C0D45ECA0143D80A7EBACBF6BC /* RequestInterceptor.swift */,
+				E8F193A60EBA5A16324F9C0345FA64D2 /* RequestTaskMap.swift */,
+				BD31E72790EA79BC0B5B047BB0D07CBB /* Response.swift */,
+				7E30F9B991B5A2218785E25BE7692733 /* ResponseSerialization.swift */,
+				0EDF29108F69D5461813BEA973FEF022 /* Result+Alamofire.swift */,
+				6F272F6C2B556C197F7D550D387939BD /* RetryPolicy.swift */,
+				C36C6190CC43DE48FE9293701CE9AA96 /* ServerTrustEvaluation.swift */,
+				51158BE5B13B6EC48B3C1F05B22C592D /* Session.swift */,
+				D875571B57E0AA7A960E5B8C09A47EB6 /* SessionDelegate.swift */,
+				19C1C4FAC904FA987CFF27709D7A50BA /* URLConvertible+URLRequestConvertible.swift */,
+				08899C8B2AB111063D40658369322022 /* URLEncodedFormEncoder.swift */,
+				D69831233320AA26243DAF0AC9FEEB2C /* URLRequest+Alamofire.swift */,
+				6DE6DF1408C18812D310D6E8BCDF6810 /* URLSessionConfiguration+Alamofire.swift */,
+				75511942AD8E157B11A74C6A3E1B750D /* Validation.swift */,
+				C192863A65DA509B2B61162756DCA744 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2BF0C1E7AE71168EA18F784C644AC717 /* Headers */ = {
+		04F1D223DEC518FC9A724AE17B3E81BA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FE405C267CABEFC3123434CF82F251 /* Pods-HealthyHome-umbrella.h in Headers */,
+				D819A029B9707AFD84F745194DF369BC /* Pods-HealthyHome-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09F7B7D04C454C16C0015640CF269F7E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09944176280C980EB49784DBCA380462 /* ReachabilitySwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,17 +660,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6E2FD03C3D04DF323F6C12255393662 /* Headers */ = {
+		9A877CBE17B45AC59F14C2DD3C92C32D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				871B8CF0BC5248B22258BF8ED6ADC29C /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h in Headers */,
+				51F360998C960F915329440E9BBB4BDB /* Pods-HealthyHome-HealthyHomeUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADDF288DD930A46B5F0F198C225895C9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00FA97D56201027AEB1C7692A2C3CF8B /* Alamofire-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildPhases = (
+				09F7B7D04C454C16C0015640CF269F7E /* Headers */,
+				9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */,
+				92A37A51219ED31062DE51A3E139BF37 /* Frameworks */,
+				1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReachabilitySwift;
+			productName = ReachabilitySwift;
+			productReference = 21B03CA622E690725A6626C088E1D09F /* Reachability.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		2A11038EA8B831303E4506F62ACA67A8 /* Pods-HealthyHomeTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A6E972D551FCE2C1C55001CA32ECA357 /* Build configuration list for PBXNativeTarget "Pods-HealthyHomeTests" */;
@@ -461,17 +718,19 @@
 		};
 		76B88D9228EA3F7D4596D12128038774 /* Pods-HealthyHome-HealthyHomeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F1D70E101C404CE46ED3431E76679C2 /* Build configuration list for PBXNativeTarget "Pods-HealthyHome-HealthyHomeUITests" */;
+			buildConfigurationList = E5CEAEA8815E2EE1BFA2F385F543FF4D /* Build configuration list for PBXNativeTarget "Pods-HealthyHome-HealthyHomeUITests" */;
 			buildPhases = (
-				C6E2FD03C3D04DF323F6C12255393662 /* Headers */,
-				9B2E9E115E60847D9C7CB8B74E3712EE /* Sources */,
-				7810751B3A9C724349DBDA82057C90EA /* Frameworks */,
-				11A09C0DCB30AD384B79A07C2746B950 /* Resources */,
+				9A877CBE17B45AC59F14C2DD3C92C32D /* Headers */,
+				7DEA71FE131D826CF985C3E9D384C9B3 /* Sources */,
+				45D8F62784562F167908859C43974987 /* Frameworks */,
+				802C2D1CFC0E21B52F93DFABFBE3CE94 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CCE4127D35F2A79B799E4A5D4B322A53 /* PBXTargetDependency */,
+				AE4032F2D20AAC4AC4908E4990546E92 /* PBXTargetDependency */,
+				F33BC163733A06E1ABD2B956A598067C /* PBXTargetDependency */,
+				E2931A8312BB66EF35BF2646ADB26BE6 /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthyHome-HealthyHomeUITests";
 			productName = "Pods-HealthyHome-HealthyHomeUITests";
@@ -498,21 +757,41 @@
 		};
 		D1F912A17CFEC905AA9492B3BF2E520E /* Pods-HealthyHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62BEDF96C620945C71E93C91CB1A33F2 /* Build configuration list for PBXNativeTarget "Pods-HealthyHome" */;
+			buildConfigurationList = CDD1A7B2C752E6875DBD546BC12B51D8 /* Build configuration list for PBXNativeTarget "Pods-HealthyHome" */;
 			buildPhases = (
-				2BF0C1E7AE71168EA18F784C644AC717 /* Headers */,
-				B0F10F6DE8AC33F164CD7AF661C799B2 /* Sources */,
-				2E1DF02588619419B8AA84AC6544FB7D /* Frameworks */,
-				2FA3ED392EF4A12A10BCF3F9930032C0 /* Resources */,
+				04F1D223DEC518FC9A724AE17B3E81BA /* Headers */,
+				DEEEC99ECA0A1532C0BB257A551FEC2B /* Sources */,
+				4F534DCE98EC81CF7932D5EF0E4D6EC9 /* Frameworks */,
+				E76D59B618889BD232582E6A1AA2A031 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				05D3C5AFE8003B98E58A87557F8664DD /* PBXTargetDependency */,
+				388AFFDDB7B550C70C4EB70AF99DD750 /* PBXTargetDependency */,
+				D3C58AF213EE850EE24823932BD9953D /* PBXTargetDependency */,
+				224284202085A08453CB4975E331E17B /* PBXTargetDependency */,
 			);
 			name = "Pods-HealthyHome";
 			productName = "Pods-HealthyHome";
 			productReference = D1B1D11681D579DFDE5E7F09764635EA /* Pods_HealthyHome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B2B8EC7E21CDBFF2BDA26B1B4AC4C0D /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				ADDF288DD930A46B5F0F198C225895C9 /* Headers */,
+				7349DB0E9BEBE664696F1DCC25226F26 /* Sources */,
+				8B0D8633F410345F93419B8C3D7B6916 /* Frameworks */,
+				28FC0024B79C28A420D7C4FEBB9E3AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -525,22 +804,23 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = B56F6BC3175E55CA4FFB6E7514232B19 /* Products */;
+			productRefGroup = CC5B331F1FCE0984E69C511701F800D9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
 				8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */,
 				D1F912A17CFEC905AA9492B3BF2E520E /* Pods-HealthyHome */,
 				76B88D9228EA3F7D4596D12128038774 /* Pods-HealthyHome-HealthyHomeUITests */,
 				2A11038EA8B831303E4506F62ACA67A8 /* Pods-HealthyHomeTests */,
+				0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */,
 			);
 		};
 /* End PBXProject section */
@@ -553,14 +833,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		11A09C0DCB30AD384B79A07C2746B950 /* Resources */ = {
+		1EA4E360633A1D5CC11F6E9C4EEC2475 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2FA3ED392EF4A12A10BCF3F9930032C0 /* Resources */ = {
+		28FC0024B79C28A420D7C4FEBB9E3AEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -568,6 +848,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		75F814E635720FF8F7B04E166E23A0B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802C2D1CFC0E21B52F93DFABFBE3CE94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E76D59B618889BD232582E6A1AA2A031 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -612,30 +906,85 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B2E9E115E60847D9C7CB8B74E3712EE /* Sources */ = {
+		7349DB0E9BEBE664696F1DCC25226F26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D97643539DD35BDFA9FF30466E7516CF /* Pods-HealthyHome-HealthyHomeUITests-dummy.m in Sources */,
+				17953A9CF2E354B3E69B9ABC2F367AD9 /* AFError.swift in Sources */,
+				B1C58F6CED7B3E45170711D9ADF878AF /* Alamofire-dummy.m in Sources */,
+				B788B3354CCEBE56DFDB963CAFD7F6C2 /* Alamofire.swift in Sources */,
+				44127C4B989C9CC6A90D78B66A929A5E /* AlamofireExtended.swift in Sources */,
+				0AE06C3AEA6CA45342BA703230ABD2CB /* CachedResponseHandler.swift in Sources */,
+				E9A5AC2F471699CCA516952A5FEB990B /* DispatchQueue+Alamofire.swift in Sources */,
+				CACBD166E573774FB5613C34AA6DA7A7 /* EventMonitor.swift in Sources */,
+				56EC8ED1535DAB987F3D2B71D4C05773 /* HTTPHeaders.swift in Sources */,
+				B23E9A5CDA31534491226F4C2EE8F8E6 /* HTTPMethod.swift in Sources */,
+				5C4A0685B5A201436AB52EF25829B333 /* MultipartFormData.swift in Sources */,
+				E07BD425C4EA9ADF15DDFCDB10D0B2FB /* MultipartUpload.swift in Sources */,
+				7CF8362BA31492053F5CB165637AE117 /* NetworkReachabilityManager.swift in Sources */,
+				C7369563F6946D8984124E1A546B6425 /* Notifications.swift in Sources */,
+				92811AC5CD9A5004116AE43C4E8FD955 /* OperationQueue+Alamofire.swift in Sources */,
+				5D61C8ED0DDCC9F8B576B6514B19EE50 /* ParameterEncoder.swift in Sources */,
+				14AB7976E100075ADEA0AB1DB833E72D /* ParameterEncoding.swift in Sources */,
+				0419772A87B16DB7DCF405A9E77D671F /* Protector.swift in Sources */,
+				C64AF152F7928CDB59385528DB65FE19 /* RedirectHandler.swift in Sources */,
+				6A22C46CB1EDE471794D9AB2AC10327F /* Request.swift in Sources */,
+				AD9899986955B2EC1EC20818C860C971 /* RequestInterceptor.swift in Sources */,
+				48D97BE7D5CAED273BD2341C239CC934 /* RequestTaskMap.swift in Sources */,
+				F71789DC91A75033EFB79DB828676451 /* Response.swift in Sources */,
+				13457FE4E607509A3B9527B0711033D5 /* ResponseSerialization.swift in Sources */,
+				4082513A35C682F2193D002C80F72B79 /* Result+Alamofire.swift in Sources */,
+				D6B2983389480F48F27A0704EEB5DC81 /* RetryPolicy.swift in Sources */,
+				0CC43FF0E31AA320ACFEB0FE6239DF34 /* ServerTrustEvaluation.swift in Sources */,
+				69ACE4EEE5A8C1C618B22CC1F7B8EF01 /* Session.swift in Sources */,
+				42CDB5C986C78BBC8E5C0185F746CABF /* SessionDelegate.swift in Sources */,
+				70517C3BAC2D6614347DEAC15299EB84 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				5D12235D061AEE7459279AAF8C348DFE /* URLEncodedFormEncoder.swift in Sources */,
+				E4E12208D5246E64B7E6CCAE987ADB03 /* URLRequest+Alamofire.swift in Sources */,
+				AF92602937CA016548022C600B8CDC16 /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				06507A26118BA5ACFBBC8C225776920E /* Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0F10F6DE8AC33F164CD7AF661C799B2 /* Sources */ = {
+		7DEA71FE131D826CF985C3E9D384C9B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D297BD91956F5E2E254EEF498AEE4048 /* Pods-HealthyHome-dummy.m in Sources */,
+				E41AE39DB82081D0E02126B2C22C1410 /* Pods-HealthyHome-HealthyHomeUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C9FF78F6878BCE13B73B6BB5DD0A609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC96F44279E61358242F26840D4853F0 /* Reachability.swift in Sources */,
+				E5F6ACACDF29D937A21E7DEC85A13E3E /* ReachabilitySwift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEEEC99ECA0A1532C0BB257A551FEC2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0AE7FF0FAACBB822DE83D26093B635C /* Pods-HealthyHome-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		05D3C5AFE8003B98E58A87557F8664DD /* PBXTargetDependency */ = {
+		224284202085A08453CB4975E331E17B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = CYLTabBarController;
-			target = 8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */;
-			targetProxy = D3E2977C554E97ADAAC33F2D79C9D09B /* PBXContainerItemProxy */;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 896226B17FA6B6B29D73B4873C8EEAD2 /* PBXContainerItemProxy */;
+		};
+		388AFFDDB7B550C70C4EB70AF99DD750 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 4E15434BAED1C1921253BCCBFF055DA7 /* PBXContainerItemProxy */;
 		};
 		668153E2619A4F4740299CC517BCD0D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -643,15 +992,69 @@
 			target = D1F912A17CFEC905AA9492B3BF2E520E /* Pods-HealthyHome */;
 			targetProxy = 82982BCFB81FCCF91EA978C9347F5DAC /* PBXContainerItemProxy */;
 		};
-		CCE4127D35F2A79B799E4A5D4B322A53 /* PBXTargetDependency */ = {
+		AE4032F2D20AAC4AC4908E4990546E92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = 170E2DCE0A00B37C0D26FC60ED36DC24 /* PBXContainerItemProxy */;
+		};
+		D3C58AF213EE850EE24823932BD9953D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CYLTabBarController;
 			target = 8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */;
-			targetProxy = D408EB18AB8CB10D982A2C1D9D7E1832 /* PBXContainerItemProxy */;
+			targetProxy = A877922416274449A6073705C219D32E /* PBXContainerItemProxy */;
+		};
+		E2931A8312BB66EF35BF2646ADB26BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = 0B00B2C167CD783351BD1D00BD5AD1F8 /* ReachabilitySwift */;
+			targetProxy = 2A5EF82A4B8E4DA951779A06CECCB4E5 /* PBXContainerItemProxy */;
+		};
+		F33BC163733A06E1ABD2B956A598067C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CYLTabBarController;
+			target = 8534B493C62D81C69516B0E9599CEF36 /* CYLTabBarController */;
+			targetProxy = C6D9983584C8989D6F67FD7C0978DF4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		00319A2330DC739FCBFBB6CFB0C5F58D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BB97DD7B71A7E268B4BA56BC1922D5 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		1AA5EC4C637FE1B3EB9E292FA787BEC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 80B3B46CFB584B807EA1EDD05A426C1D /* Pods-HealthyHomeTests.debug.xcconfig */;
@@ -690,12 +1093,10 @@
 			};
 			name = Debug;
 		};
-		3103F6DC8DD3249FC98EE87486796652 /* Debug */ = {
+		2AEA52C286CB9BB115F05B6410DA13C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A93B3D54DD38F3E34F08C1BE2906494 /* Pods-HealthyHome.debug.xcconfig */;
+			baseConfigurationReference = 85A4CA5B77F1232C191E004579B562EC /* CYLTabBarController.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -705,30 +1106,29 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HealthyHome/Pods-HealthyHome-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HealthyHome/Pods-HealthyHome.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = CYLTabBarController;
+				PRODUCT_NAME = CYLTabBarController;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		442AB0DF9D50AAC6E6DC64A60DB4C5E0 /* Release */ = {
+		31FF3EF6056E8C3740EEE052929598E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FF39DE0A9C0B152E513A4A93E2C1EC28 /* Pods-HealthyHome.release.xcconfig */;
 			buildSettings = {
@@ -767,7 +1167,7 @@
 			};
 			name = Release;
 		};
-		4AFB04D735E4CB8CF1D7BE8B474B0EA4 /* Debug */ = {
+		45E717C09BAA7E17EA31A79CD34CDB55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5369020A383ABD5DC6C67982BD7F3109 /* Pods-HealthyHome-HealthyHomeUITests.debug.xcconfig */;
 			buildSettings = {
@@ -804,6 +1204,155 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		62D7FB5ECB5529578D75D3E50DF4B2B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A93B3D54DD38F3E34F08C1BE2906494 /* Pods-HealthyHome.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyHome/Pods-HealthyHome-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyHome/Pods-HealthyHome.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		82FA4778ECC73D584DB0222DF7854EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A4CA5B77F1232C191E004579B562EC /* CYLTabBarController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController.modulemap";
+				PRODUCT_MODULE_NAME = CYLTabBarController;
+				PRODUCT_NAME = CYLTabBarController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		85E3C3F2DC22850E6874365BF6E931CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CF1FF7435053987DA54B2AD88D49A4F /* Pods-HealthyHome-HealthyHomeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HealthyHome-HealthyHomeUITests/Pods-HealthyHome-HealthyHomeUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HealthyHome-HealthyHomeUITests/Pods-HealthyHome-HealthyHomeUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D9C5DF25380D913350BDCA225353A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1BB84836F61A811EA90ADAAEFC3BA1 /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -869,41 +1418,6 @@
 			};
 			name = Debug;
 		};
-		A1E4E69595F1C9101F77B0C43C54931F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A7E2F0D0BAF0E1ACBD8DCF7F034D819 /* CYLTabBarController.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = CYLTabBarController;
-				PRODUCT_NAME = CYLTabBarController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		BFF8E27C316A72F9DEC16C5589B41447 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E5ECB2285F3F458DAD882F53B701380 /* Pods-HealthyHomeTests.release.xcconfig */;
@@ -943,48 +1457,9 @@
 			};
 			name = Release;
 		};
-		C72FB76DF2B38D7D50EC3E82C1DAE3E7 /* Release */ = {
+		D4A7F9E3FE3B37118A6FCEBE7DA678CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0CF1FF7435053987DA54B2AD88D49A4F /* Pods-HealthyHome-HealthyHomeUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-HealthyHome-HealthyHomeUITests/Pods-HealthyHome-HealthyHomeUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-HealthyHome-HealthyHomeUITests/Pods-HealthyHome-HealthyHomeUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D54FC6E26F1D1752FE793AC3C8C2CBFE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E4AD099BE76C6BBBA5B87650286F011 /* CYLTabBarController.release.xcconfig */;
+			baseConfigurationReference = 2F1BB84836F61A811EA90ADAAEFC3BA1 /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -995,8 +1470,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CYLTabBarController/CYLTabBarController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1004,19 +1479,18 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/CYLTabBarController/CYLTabBarController.modulemap";
-				PRODUCT_MODULE_NAME = CYLTabBarController;
-				PRODUCT_NAME = CYLTabBarController;
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				PRODUCT_MODULE_NAME = Reachability;
+				PRODUCT_NAME = Reachability;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1078,6 +1552,43 @@
 			};
 			name = Release;
 		};
+		F659822BFF3B3C20B29B76B89800A5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5BB97DD7B71A7E268B4BA56BC1922D5 /* Alamofire.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1090,20 +1601,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62BEDF96C620945C71E93C91CB1A33F2 /* Build configuration list for PBXNativeTarget "Pods-HealthyHome" */ = {
+		6B2B8EC7E21CDBFF2BDA26B1B4AC4C0D /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3103F6DC8DD3249FC98EE87486796652 /* Debug */,
-				442AB0DF9D50AAC6E6DC64A60DB4C5E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9F1D70E101C404CE46ED3431E76679C2 /* Build configuration list for PBXNativeTarget "Pods-HealthyHome-HealthyHomeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AFB04D735E4CB8CF1D7BE8B474B0EA4 /* Debug */,
-				C72FB76DF2B38D7D50EC3E82C1DAE3E7 /* Release */,
+				00319A2330DC739FCBFBB6CFB0C5F58D /* Debug */,
+				F659822BFF3B3C20B29B76B89800A5E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1120,8 +1622,35 @@
 		C35F2951EF76B5FB178FC3288E0EB7BF /* Build configuration list for PBXNativeTarget "CYLTabBarController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1E4E69595F1C9101F77B0C43C54931F /* Debug */,
-				D54FC6E26F1D1752FE793AC3C8C2CBFE /* Release */,
+				2AEA52C286CB9BB115F05B6410DA13C0 /* Debug */,
+				82FA4778ECC73D584DB0222DF7854EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD1A7B2C752E6875DBD546BC12B51D8 /* Build configuration list for PBXNativeTarget "Pods-HealthyHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D7FB5ECB5529578D75D3E50DF4B2B2 /* Debug */,
+				31FF3EF6056E8C3740EEE052929598E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50A4613BA081C4F47DEEC1F9B9176BA /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4A7F9E3FE3B37118A6FCEBE7DA678CF /* Debug */,
+				8D9C5DF25380D913350BDCA225353A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5CEAEA8815E2EE1BFA2F385F543FF4D /* Build configuration list for PBXNativeTarget "Pods-HealthyHome-HealthyHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E717C09BAA7E17EA31A79CD34CDB55 /* Debug */,
+				85E3C3F2DC22850E6874365BF6E931CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

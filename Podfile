@@ -9,9 +9,8 @@ target 'HealthyHome' do
   # Pods for HealthyHome
 
   pod 'CYLTabBarController'
-
-
-
+  pod 'ReachabilitySwift'
+  pod 'Alamofire'
 
 
   target 'HealthyHomeTests' do

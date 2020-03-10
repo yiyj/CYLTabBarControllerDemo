@@ -74,4 +74,50 @@ class TabBarCommon: NSObject {
     }
 
     
+    //MARK: 获取当前页面控制器
+    class func currentvc() -> UIViewController {
+        let keyWindow = (UIApplication.shared.delegate as! AppDelegate).window?.rootViewController
+        let rootVC = keyWindow!
+//        return getVisibleViewControllerFrom(vc: rootVC)
+        return topViewControllerWithRootViewController(rootVC: rootVC)
+    }
+    
+    //方法1
+    class func getVisibleViewControllerFrom(vc: UIViewController) -> UIViewController {
+        
+        if vc.isKind(of: UINavigationController.self) {
+            return getVisibleViewControllerFrom(vc: (vc as! UINavigationController).visibleViewController!)
+        }else if vc.isKind(of: UITabBarController.self) {
+            return getVisibleViewControllerFrom(vc: (vc as! UITabBarController).selectedViewController!)
+        }else {
+            if (vc.presentedViewController != nil) {
+                return getVisibleViewControllerFrom(vc: vc.presentedViewController!)
+            }else {
+                return vc
+            }
+        }
+    }
+    
+    //方法2
+    class func topViewControllerWithRootViewController(rootVC: UIViewController) -> UIViewController {
+        
+        if rootVC.isKind(of: UITabBarController.self) {
+            let tabVC = rootVC as! UITabBarController
+            return topViewControllerWithRootViewController(rootVC: tabVC.selectedViewController!)
+        } else if rootVC.isKind(of: UINavigationController.self) {
+            let navc = rootVC as! UINavigationController
+            return topViewControllerWithRootViewController(rootVC: navc.visibleViewController!)
+        } else if (rootVC.presentedViewController != nil) {
+            return topViewControllerWithRootViewController(rootVC: rootVC.presentedViewController!)
+        } else {
+            return rootVC
+        }
+        
+    }
+    
+    //MARK: 验证
+    class func kindVc(vc: UIViewController.Type) -> Bool {
+        return currentvc().isKind(of: vc)
+    }
+    
 }

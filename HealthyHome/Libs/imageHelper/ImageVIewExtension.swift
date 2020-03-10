@@ -2,10 +2,9 @@
 //  ImageViewExtension.swift
 //
 //  ImageHelper
-//  Version 3.2.2
 //
-//  Created by Melvin Rivera on 7/23/14.
-//  Copyright (c) 2014 All Forces. All rights reserved.
+//  Created by yyj on 2020/03/1.
+//  Copyright (c) 2020 apple. All rights reserved.
 //
 
 import Foundation
@@ -15,12 +14,12 @@ import QuartzCore
 public extension UIImageView {
     
     /**
-     Loads an image from a URL. If cached, the cached image is returned. Otherwise, a place holder is used until the image from web is returned by the closure.
+     通过URL下载请求返回UIImage
      
-     - Parameter url: The image URL.
-     - Parameter placeholder: The placeholder image.
-     - Parameter fadeIn: Weather the mage should fade in.
-     - Parameter closure: Returns the image from the web the first time is fetched.
+     - Parameter url: 图片地址
+     - Parameter placeholder: 默认image.
+     - Parameter fadeIn: 显示效果.
+     - Parameter closure: 闭包返回image
      
      - Returns A new image
      */
@@ -41,6 +40,54 @@ public extension UIImageView {
             }
             closure?(image)
         }
+    }
+    
+    
+}
+ 
+public extension UIButton {
+    /**
+    通过URL请求加载
+    
+    - Parameter url: 图片地址
+    - Parameter placeholder: 默认image.
+    - Parameter shouldCacheImage: 是否缓存数据 默认是.
+    - Parameter state: 状态
+    
+    */
+    func imageFromURL(_ url: String, placeholder: UIImage, shouldCacheImage: Bool = true, for state: UIControl.State)
+    {
+        self.setImage(placeholder, for: state)
+        
+        if shouldCacheImage {
+            if let image = UIImage.shared.object(forKey: url as AnyObject) as? UIImage {
+                DispatchQueue.main.sync {
+                    self.setImage(image, for: state)
+                }
+            }
+        }
+        // Fetch Image
+        let session = URLSession(configuration: URLSessionConfiguration.default)
+        if let nsURL = URL(string: url) {
+            session.dataTask(with: nsURL, completionHandler: { (data, response, error) -> Void in
+                if let data = data, let image = UIImage(data: data) {
+                    if shouldCacheImage {
+                        UIImage.shared.setObject(image, forKey: url as AnyObject)
+                    }
+                    DispatchQueue.main.sync {
+                        self.setImage(image, for: state)
+                    }
+                }
+                session.finishTasksAndInvalidate()
+            }).resume()
+        }
+    }
+    
+    func setBackgroudImageWithTitle(imageName: String, normalTitle: String, selectTitle: String, color: UIColor, for state: UIControl.State) {
+        self.setBackgroundImage(UIImage(named: imageName), for: state)
+        self.setTitle(normalTitle, for: .normal)
+        self.setTitle(selectTitle, for: .selected)
+        self.setTitleColor(color, for: state)
     }
     
     

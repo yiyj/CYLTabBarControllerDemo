@@ -7,8 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00643E4624121D770083C952 /* PasteboardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00643E4524121D770083C952 /* PasteboardLabel.swift */; };
+		00643E48241240D00083C952 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00643E47241240D00083C952 /* Main.storyboard */; };
+		00643E4D24124B1E0083C952 /* UIDeviceHardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00643E4C24124B1E0083C952 /* UIDeviceHardware.swift */; };
+		00D958B424172D35009CD2CF /* TapLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D958B324172D35009CD2CF /* TapLabel.swift */; };
+		00F459B42416275100B88762 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F459B32416275100B88762 /* Macros.swift */; };
 		184C1C9223F65A2800B23C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C1C9123F65A2800B23C7F /* ViewController.swift */; };
-		184C1C9523F65A2800B23C7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C1C9323F65A2800B23C7F /* Main.storyboard */; };
 		184C1C9723F65A2A00B23C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C1C9623F65A2A00B23C7F /* Assets.xcassets */; };
 		184C1C9A23F65A2A00B23C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C1C9823F65A2A00B23C7F /* LaunchScreen.storyboard */; };
 		184C1CA523F65A2A00B23C7F /* HealthyHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C1CA423F65A2A00B23C7F /* HealthyHomeTests.swift */; };
@@ -59,9 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00643E4524121D770083C952 /* PasteboardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteboardLabel.swift; sourceTree = "<group>"; };
+		00643E47241240D00083C952 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		00643E49241242F40083C952 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		00643E4C24124B1E0083C952 /* UIDeviceHardware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceHardware.swift; sourceTree = "<group>"; };
+		00D958B324172D35009CD2CF /* TapLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLabel.swift; sourceTree = "<group>"; };
+		00F459B32416275100B88762 /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
 		184C1C8A23F65A2800B23C7F /* HealthyHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C1C9123F65A2800B23C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		184C1C9423F65A2800B23C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		184C1C9623F65A2A00B23C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184C1C9923F65A2A00B23C7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184C1C9B23F65A2A00B23C7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -136,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00D958B7241741F1009CD2CF /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				184C1CE923F65B0B00B23C7F /* OCSwift.h */,
+				184C1CEA23F65B0B00B23C7F /* OCSwift.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
 		0D2E3A8622A6521A9771DB87 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,12 +193,11 @@
 				184C1CBD23F65A6700B23C7F /* UI */,
 				184C1CD723F65A8C00B23C7F /* Tool */,
 				184C1CCD23F65A7400B23C7F /* Libs */,
-				184C1C9323F65A2800B23C7F /* Main.storyboard */,
+				00D958B7241741F1009CD2CF /* OC */,
 				184C1C9623F65A2A00B23C7F /* Assets.xcassets */,
 				184C1C9823F65A2A00B23C7F /* LaunchScreen.storyboard */,
+				00643E47241240D00083C952 /* Main.storyboard */,
 				184C1C9B23F65A2A00B23C7F /* Info.plist */,
-				184C1CE923F65B0B00B23C7F /* OCSwift.h */,
-				184C1CEA23F65B0B00B23C7F /* OCSwift.m */,
 				184C1CE823F65B0B00B23C7F /* HealthyHome-Bridging-Header.h */,
 			);
 			path = HealthyHome;
@@ -290,7 +307,7 @@
 			isa = PBXGroup;
 			children = (
 				184C1CD823F65A8C00B23C7F /* Common.swift */,
-				184C1CF023F686AE00B23C7F /* TabBarCommon.swift */,
+				00643E4C24124B1E0083C952 /* UIDeviceHardware.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -311,6 +328,7 @@
 			isa = PBXGroup;
 			children = (
 				184F198923F7E046002DBAE4 /* PrefixPch.swift */,
+				00F459B32416275100B88762 /* Macros.swift */,
 			);
 			path = Macros;
 			sourceTree = "<group>";
@@ -325,6 +343,7 @@
 		184C1CDD23F65A9A00B23C7F /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				184C1CF023F686AE00B23C7F /* TabBarCommon.swift */,
 				184C1C9123F65A2800B23C7F /* ViewController.swift */,
 				184C1CDE23F65A9A00B23C7F /* RootNavigationController.swift */,
 				184C1CE023F65A9A00B23C7F /* RootTabBarController.swift */,
@@ -339,6 +358,8 @@
 				184F198423F7C811002DBAE4 /* UIColor+Extension.swift */,
 				184F198523F7C811002DBAE4 /* UIIamge+Extension.swift */,
 				184F198323F7C811002DBAE4 /* UIView+Extension.swift */,
+				00643E4524121D770083C952 /* PasteboardLabel.swift */,
+				00D958B324172D35009CD2CF /* TapLabel.swift */,
 			);
 			path = Extenstion;
 			sourceTree = "<group>";
@@ -465,6 +486,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 184C1C8123F65A2800B23C7F;
 			productRefGroup = 184C1C8B23F65A2800B23C7F /* Products */;
@@ -483,9 +505,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00643E48241240D00083C952 /* Main.storyboard in Resources */,
 				184C1C9A23F65A2A00B23C7F /* LaunchScreen.storyboard in Resources */,
 				184C1C9723F65A2A00B23C7F /* Assets.xcassets in Resources */,
-				184C1C9523F65A2800B23C7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -620,10 +642,14 @@
 				184C1CE723F65A9A00B23C7F /* AppDelegate.swift in Sources */,
 				184C1CD523F65A7400B23C7F /* ImageHelper.swift in Sources */,
 				184C1C9223F65A2800B23C7F /* ViewController.swift in Sources */,
+				00643E4D24124B1E0083C952 /* UIDeviceHardware.swift in Sources */,
 				184C1CD923F65A8C00B23C7F /* Common.swift in Sources */,
+				00F459B42416275100B88762 /* Macros.swift in Sources */,
+				00D958B424172D35009CD2CF /* TapLabel.swift in Sources */,
 				184F198223F7C707002DBAE4 /* ChilderVC.swift in Sources */,
 				184C1CE423F65A9A00B23C7F /* RootNavigationController.swift in Sources */,
 				184C1CD623F65A7400B23C7F /* ToastView.swift in Sources */,
+				00643E4624121D770083C952 /* PasteboardLabel.swift in Sources */,
 				184C1CC923F65A6700B23C7F /* HealthyVC.swift in Sources */,
 				184C1CCB23F65A6700B23C7F /* MeVC.swift in Sources */,
 				184F198623F7C811002DBAE4 /* UIView+Extension.swift in Sources */,
@@ -672,18 +698,11 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		184C1C9323F65A2800B23C7F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				184C1C9423F65A2800B23C7F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		184C1C9823F65A2A00B23C7F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				184C1C9923F65A2A00B23C7F /* Base */,
+				00643E49241242F40083C952 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -695,6 +714,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -755,6 +775,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -812,13 +833,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35GDVZ2Q5K;
+				DEVELOPMENT_TEAM = AS54F6LA47;
 				INFOPLIST_FILE = HealthyHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HealthyHome;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrs.XingHuiEStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HealthyHome/HealthyHome-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -834,13 +855,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 35GDVZ2Q5K;
+				DEVELOPMENT_TEAM = AS54F6LA47;
 				INFOPLIST_FILE = HealthyHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.HealthyHome;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lrs.XingHuiEStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "HealthyHome/HealthyHome-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
