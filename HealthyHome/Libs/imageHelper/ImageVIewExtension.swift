@@ -55,41 +55,40 @@ public extension UIButton {
     - Parameter state: 状态
     
     */
-    func imageFromURL(_ url: String, placeholder: UIImage, shouldCacheImage: Bool = true, for state: UIControl.State)
+    func imageFromURL(_ url: String, placeholderImage: UIImage, shouldCacheImage: Bool = true, for state: UIControl.State)
     {
-        self.setImage(placeholder, for: state)
-        
-        if shouldCacheImage {
-            if let image = UIImage.shared.object(forKey: url as AnyObject) as? UIImage {
-                DispatchQueue.main.sync {
-                    self.setImage(image, for: state)
-                }
-            }
-        }
-        // Fetch Image
-        let session = URLSession(configuration: URLSessionConfiguration.default)
-        if let nsURL = URL(string: url) {
-            session.dataTask(with: nsURL, completionHandler: { (data, response, error) -> Void in
-                if let data = data, let image = UIImage(data: data) {
-                    if shouldCacheImage {
-                        UIImage.shared.setObject(image, forKey: url as AnyObject)
-                    }
+        if url.isEmpty || url.count == 0 {
+            self.setImage(placeholderImage, for: state)
+        }else {
+            if shouldCacheImage {
+                if let image = UIImage.shared.object(forKey: url as AnyObject) as? UIImage {
                     DispatchQueue.main.sync {
                         self.setImage(image, for: state)
                     }
                 }
-                session.finishTasksAndInvalidate()
-            }).resume()
+            }
+            // Fetch Image
+            let session = URLSession(configuration: URLSessionConfiguration.default)
+            if let nsURL = URL(string: url) {
+                session.dataTask(with: nsURL, completionHandler: { (data, response, error) -> Void in
+                    if (error != nil) {
+                        DispatchQueue.main.sync {
+                            self.setImage(placeholderImage, for: state)
+                        }
+                    }
+                    if let data = data, let image = UIImage(data: data) {
+                        if shouldCacheImage {
+                            UIImage.shared.setObject(image, forKey: url as AnyObject)
+                        }
+                        DispatchQueue.main.sync {
+                            self.setImage(image, for: state)
+                        }
+                    }
+                    session.finishTasksAndInvalidate()
+                }).resume()
+            }
         }
     }
-    
-    func setBackgroudImageWithTitle(imageName: String, normalTitle: String, selectTitle: String, color: UIColor, for state: UIControl.State) {
-        self.setBackgroundImage(UIImage(named: imageName), for: state)
-        self.setTitle(normalTitle, for: .normal)
-        self.setTitle(selectTitle, for: .selected)
-        self.setTitleColor(color, for: state)
-    }
-    
     
 }
  

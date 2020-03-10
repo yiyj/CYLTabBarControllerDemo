@@ -16,7 +16,7 @@ class ChilderVC: ViewController {
         addRightBarButtonItemTitle("next", "", self, action: #selector(nextAction))
         
         let backImageView = UIImageView(frame: self.view.bounds)
-    backImageView.imageFromURL("https://fc3tn.baidu.com/it/u=3025909226,1763324618&fm=202&src=bqdata", placeholder: UIImage(named: "guideImage_1_750x1334")!)
+        backImageView.imageFromURL("https://fc3tn.baidu.com/it/u=3025909226,1763324618&fm=202&src=bqdata", placeholder: UIImage(named: "guideImage_1_750x1334")!)
         self.view.addSubview(backImageView)
         
         

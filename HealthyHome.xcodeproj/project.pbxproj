@@ -12,6 +12,7 @@
 		00643E4D24124B1E0083C952 /* UIDeviceHardware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00643E4C24124B1E0083C952 /* UIDeviceHardware.swift */; };
 		00D958B424172D35009CD2CF /* TapLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D958B324172D35009CD2CF /* TapLabel.swift */; };
 		00F459B42416275100B88762 /* Macros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F459B32416275100B88762 /* Macros.swift */; };
+		1849C5F82417B9FF00E24B18 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1849C5F72417B9FF00E24B18 /* UIButtonExtension.swift */; };
 		184C1C9223F65A2800B23C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C1C9123F65A2800B23C7F /* ViewController.swift */; };
 		184C1C9723F65A2A00B23C7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184C1C9623F65A2A00B23C7F /* Assets.xcassets */; };
 		184C1C9A23F65A2A00B23C7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184C1C9823F65A2A00B23C7F /* LaunchScreen.storyboard */; };
@@ -69,6 +70,7 @@
 		00643E4C24124B1E0083C952 /* UIDeviceHardware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDeviceHardware.swift; sourceTree = "<group>"; };
 		00D958B324172D35009CD2CF /* TapLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapLabel.swift; sourceTree = "<group>"; };
 		00F459B32416275100B88762 /* Macros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macros.swift; sourceTree = "<group>"; };
+		1849C5F72417B9FF00E24B18 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		184C1C8A23F65A2800B23C7F /* HealthyHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		184C1C9123F65A2800B23C7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		184C1C9623F65A2A00B23C7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -308,6 +310,7 @@
 			children = (
 				184C1CD823F65A8C00B23C7F /* Common.swift */,
 				00643E4C24124B1E0083C952 /* UIDeviceHardware.swift */,
+				1849C5F72417B9FF00E24B18 /* UIButtonExtension.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -648,6 +651,7 @@
 				00D958B424172D35009CD2CF /* TapLabel.swift in Sources */,
 				184F198223F7C707002DBAE4 /* ChilderVC.swift in Sources */,
 				184C1CE423F65A9A00B23C7F /* RootNavigationController.swift in Sources */,
+				1849C5F82417B9FF00E24B18 /* UIButtonExtension.swift in Sources */,
 				184C1CD623F65A7400B23C7F /* ToastView.swift in Sources */,
 				00643E4624121D770083C952 /* PasteboardLabel.swift in Sources */,
 				184C1CC923F65A6700B23C7F /* HealthyVC.swift in Sources */,
