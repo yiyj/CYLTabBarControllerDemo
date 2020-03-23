@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "184C1C8923F65A2800B23C7F"
-               BuildableName = "HealthyHome.app"
+               BuildableName = "&#x5065;&#x5eb7;&#x5bb6;.app"
                BlueprintName = "HealthyHome"
                ReferencedContainer = "container:HealthyHome.xcodeproj">
             </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "184C1C8923F65A2800B23C7F"
-            BuildableName = "HealthyHome.app"
+            BuildableName = "&#x5065;&#x5eb7;&#x5bb6;.app"
             BlueprintName = "HealthyHome"
             ReferencedContainer = "container:HealthyHome.xcodeproj">
          </BuildableReference>
@@ -74,6 +74,11 @@
          <EnvironmentVariable
             key = "OS_ACTIVITY_MODE"
             value = "disable"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+         <EnvironmentVariable
+            key = "-UITraitCollectionChangeLoggingEnabled"
+            value = "YES"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
@@ -89,7 +94,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "184C1C8923F65A2800B23C7F"
-            BuildableName = "HealthyHome.app"
+            BuildableName = "&#x5065;&#x5eb7;&#x5bb6;.app"
             BlueprintName = "HealthyHome"
             ReferencedContainer = "container:HealthyHome.xcodeproj">
          </BuildableReference>

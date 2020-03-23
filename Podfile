@@ -11,7 +11,7 @@ target 'HealthyHome' do
   pod 'CYLTabBarController'
   pod 'ReachabilitySwift'
   pod 'Alamofire'
-
+  pod 'Kingfisher'
 
   target 'HealthyHomeTests' do
     inherit! :search_paths

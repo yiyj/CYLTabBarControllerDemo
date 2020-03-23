@@ -14,8 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
-
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.backgroundColor = .white
         
@@ -28,9 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }else {
             TabBarCommon.TabBarController()
         }
-        
+
         window?.makeKeyAndVisible()
 
+        //设置启动页的时长
+        Thread.sleep(forTimeInterval: 0.5)
+        
+        
         return true
     }
 

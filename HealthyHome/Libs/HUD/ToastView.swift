@@ -19,6 +19,7 @@ class ToastView: NSObject {
     var duration: CGFloat = toastDispalyDuration
     
     init(text: String) {
+        
         let rect = text.boundingRect(with: CGSize(width: 250, height: CGFloat.greatestFiniteMagnitude), options: [NSStringDrawingOptions.truncatesLastVisibleLine,NSStringDrawingOptions.usesFontLeading,NSStringDrawingOptions.usesLineFragmentOrigin], attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 16)], context: nil)
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: rect.width + 40, height: rect.height + 20))
         label.backgroundColor = UIColor.clear
@@ -30,6 +31,11 @@ class ToastView: NSObject {
         
         contenButton = UIButton(frame: CGRect(x: 0, y: 0, width: label.frame.size.width, height: label.frame.size.height))
         contenButton.layer.cornerRadius = 2.0
+        let currentMode = UITraitCollection.current.userInterfaceStyle
+        if currentMode == .dark {
+            contenButton.layer.borderWidth = 1
+            contenButton.layer.backgroundColor = UIColor.white.cgColor
+        }
         contenButton.backgroundColor = ToastBackgroundColor
         contenButton.addSubview(label)
         contenButton.autoresizingMask = UIView.AutoresizingMask.flexibleWidth
@@ -67,6 +73,8 @@ class ToastView: NSObject {
     }
     //顶部显示
     func showFromTopOffset(top: CGFloat) {
+        self.hideAnimation()
+
         let window: UIWindow = UIApplication.shared.windows.last!
         contenButton.center = CGPoint(x: window.center.x, y: top + contenButton.frame.size.height / 2)
         window.addSubview(contenButton)
@@ -127,24 +135,42 @@ class ToastView: NSObject {
     
     //显示动画
     @objc func showAnimation() {
-        UIView.beginAnimations("show", context: nil)
-        //慢到快的进入
-        UIView.setAnimationCurve(UIView.AnimationCurve.easeIn)
-        UIView.setAnimationDuration(0.3)
-        contenButton.alpha = 1
-        UIView.commitAnimations()
+    
+        if #available(iOS 13, *) {
+            UIView.animate(withDuration: 0.3) {
+                self.contenButton.alpha = 1
+            }
+        }else {
+            UIView.beginAnimations("show", context: nil)
+            //慢到快的进入
+            UIView.setAnimationCurve(UIView.AnimationCurve.easeIn)
+            UIView.setAnimationDuration(0.3)
+            contenButton.alpha = 1
+            UIView.commitAnimations()
+        }
     }
     
     //隐藏动画
     @objc func hideAnimation() {
-        UIView.beginAnimations("hide", context: nil)
-        //快到慢的退出
-        UIView.setAnimationCurve(UIView.AnimationCurve.easeOut)
-        UIView.setAnimationDelegate(self)
-        UIView.setAnimationDidStop(#selector(dismissToast))
-        UIView.setAnimationDuration(0.3)
-        contenButton.alpha = 0.0
-        UIView.commitAnimations()
+        if #available(iOS 13, *) {
+            UIView.animate(withDuration: 0.3, animations: {
+                self.contenButton.alpha = 0.0
+            }) { (over) in
+                if over {
+                    self.dismissToast()
+                }
+            }
+        }else {
+            UIView.beginAnimations("hide", context: nil)
+            //快到慢的退出
+            UIView.setAnimationCurve(UIView.AnimationCurve.easeOut)
+            UIView.setAnimationDelegate(self)
+            UIView.setAnimationDidStop(#selector(dismissToast))
+            UIView.setAnimationDuration(0.3)
+            contenButton.alpha = 0.0
+            UIView.commitAnimations()
+        }
+        
     }
     
     

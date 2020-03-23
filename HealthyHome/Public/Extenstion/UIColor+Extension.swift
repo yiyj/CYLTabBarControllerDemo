@@ -59,7 +59,7 @@ extension UIColor {
         Scanner(string: rString).scanHexInt32(&r)
         Scanner(string: gString).scanHexInt32(&g)
         Scanner(string: bString).scanHexInt32(&b)
-        
+
         return UIColor(red: CGFloat(r) / 255.0, green: CGFloat(g) / 255.0, blue: CGFloat(b) / 255.0, alpha: 1)
     }
     
@@ -78,3 +78,4 @@ extension UIColor {
         self.init(red: red, green: green, blue: blue, alpha: a)
     }
 }
+

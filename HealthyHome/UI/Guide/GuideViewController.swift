@@ -43,7 +43,7 @@ class GuideViewController: UIViewController,UIScrollViewDelegate {
         
         self.view.addSubview(scrollView)
         
-        let timeBtn = UIButton.init(frame: CGRect(x: frame.size.width - CGFloat(70), y: CGFloat(statusBarHeight), width: CGFloat(55), height: CGFloat(35)))
+        let timeBtn = UIButton.init(frame: CGRect(x: frame.size.width - CGFloat(70), y: CGFloat(statusBarHeight()), width: CGFloat(55), height: CGFloat(35)))
         timeBtn.backgroundColor = .lineColor()
         timeBtn.setTitle(String(time) + " 跳过", for: .normal)
         timeBtn.setTitleColor(.blue, for: .normal)
